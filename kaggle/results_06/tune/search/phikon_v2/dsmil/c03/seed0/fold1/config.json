@@ -1,0 +1,22 @@
+{
+  "epochs": 50,
+  "min_epochs": 10,
+  "patience": 10,
+  "accum": 1,
+  "max_patches": 8000,
+  "select": "loss",
+  "cache": false,
+  "lr": 0.0005,
+  "wd": 0.01,
+  "dropout": 0.0,
+  "hidden": 128,
+  "class_weights": true,
+  "features": "/kaggle/input/notebooks/aviralbansal16/notebook4297f7f927/features/phikon_v2",
+  "splits": "/tmp/code/splits_v2",
+  "model": "dsmil",
+  "seed": 0,
+  "out": "/kaggle/working/tune/search/phikon_v2/dsmil/c03/seed0",
+  "fold": 1,
+  "in_dim": 1024,
+  "device": "cuda:0"
+}

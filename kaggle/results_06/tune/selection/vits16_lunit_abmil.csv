@@ -1,0 +1,14 @@
+encoder,model,config,cv_bacc,lr,wd,dropout,size,class_weights
+vits16_lunit,abmil,c00,0.809035503220171,0.0002,0.0001,0.25,default,False
+vits16_lunit,abmil,c01,0.809035503220171,0.0002,1e-05,0.25,default,False
+vits16_lunit,abmil,c02,0.8018286622369775,5e-05,0.0001,0.25,large,False
+vits16_lunit,abmil,c03,0.7858556132170333,0.0005,0.01,0.0,default,True
+vits16_lunit,abmil,c04,0.8075588183279102,0.0002,0.001,0.25,small,False
+vits16_lunit,abmil,c05,0.7954885529609724,0.0005,1e-05,0.5,default,False
+vits16_lunit,abmil,c06,0.7833927419277299,0.001,1e-05,0.5,large,True
+vits16_lunit,abmil,c07,0.8018286622369775,5e-05,0.0001,0.25,large,True
+vits16_lunit,abmil,c08,0.8075588183279102,0.0002,1e-05,0.25,small,False
+vits16_lunit,abmil,c09,0.7981497095838948,5e-05,0.0001,0.5,default,False
+vits16_lunit,abmil,c10,0.7980201985305927,0.0005,0.0001,0.5,default,False
+vits16_lunit,abmil,c11,0.8012631544051276,0.001,0.01,0.25,small,False
+vits16_lunit,abmil,c12,0.8086965064821635,5e-05,0.01,0.5,large,True

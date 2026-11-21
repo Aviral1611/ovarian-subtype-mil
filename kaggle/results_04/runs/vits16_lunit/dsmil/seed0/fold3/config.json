@@ -1,0 +1,20 @@
+{
+  "epochs": 50,
+  "min_epochs": 10,
+  "patience": 10,
+  "lr": 0.0002,
+  "wd": 0.0001,
+  "accum": 1,
+  "max_patches": 8000,
+  "select": "loss",
+  "class_weights": false,
+  "cache": false,
+  "features": "/kaggle/input/notebooks/aviralbansal16/notebook4297f7f927/features/vits16_lunit",
+  "splits": "/tmp/code/splits_v2",
+  "model": "dsmil",
+  "seed": 0,
+  "out": "/kaggle/working/runs/vits16_lunit/dsmil/seed0",
+  "fold": 3,
+  "in_dim": 384,
+  "device": "cuda:0"
+}

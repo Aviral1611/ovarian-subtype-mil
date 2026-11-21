@@ -1,0 +1,9 @@
+{
+  "config": "c11",
+  "lr": 0.001,
+  "wd": 0.01,
+  "dropout": 0.25,
+  "size": "small",
+  "class_weights": false,
+  "hidden": 64
+}

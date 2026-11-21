@@ -1,0 +1,12 @@
+torch>=2.0
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+einops
+nystrom-attention
+# feature extraction only (code/extract/featx.py)
+timm
+transformers
+pyvips

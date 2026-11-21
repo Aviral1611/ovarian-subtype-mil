@@ -1,0 +1,22 @@
+{
+  "epochs": 50,
+  "min_epochs": 10,
+  "patience": 10,
+  "accum": 1,
+  "max_patches": 8000,
+  "select": "loss",
+  "cache": false,
+  "lr": 5e-05,
+  "wd": 0.0001,
+  "dropout": 0.25,
+  "hidden": 256,
+  "class_weights": true,
+  "features": "/kaggle/input/notebooks/aviralbansal16/notebook4297f7f927/features/plip",
+  "splits": "/tmp/code/splits_v2",
+  "model": "dsmil",
+  "seed": 0,
+  "out": "/kaggle/working/tune/search/plip/dsmil/c07/seed0",
+  "fold": 3,
+  "in_dim": 512,
+  "device": "cuda:1"
+}

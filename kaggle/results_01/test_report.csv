@@ -1,0 +1,4 @@
+image_id,label,is_tma,pixels,shape_after_shrink,n_tiles,macenko_fail,t_load_s,t_tile_s,t_macenko_s
+61320,EC,False,1577303091,"(21536, 18311)",2816,1,44.0,1.4,46.5
+35239,HGSC,False,2742782315,"(22276, 30783)",5611,9,82.7,2.5,87.4
+29084,LGSC,True,11478544,"(847, 847)",93,0,0.8,0.0,1.7

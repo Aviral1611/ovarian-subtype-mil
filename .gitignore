@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# large / regenerable artefacts
+code/features/
+code/fake_features/
+code/runs/
+*.pt
+*.npy
+*.h5
+*.zip
+.DS_Store
+Thumbs.db

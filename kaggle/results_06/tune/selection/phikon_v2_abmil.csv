@@ -1,0 +1,14 @@
+encoder,model,config,cv_bacc,lr,wd,dropout,size,class_weights
+phikon_v2,abmil,c00,0.7723887103408101,0.0002,0.0001,0.25,default,False
+phikon_v2,abmil,c01,0.7723887103408101,0.0002,1e-05,0.25,default,False
+phikon_v2,abmil,c02,0.7690273984484624,5e-05,0.0001,0.25,large,False
+phikon_v2,abmil,c03,0.7788935217767975,0.0005,0.01,0.0,default,True
+phikon_v2,abmil,c04,0.8004034333599934,0.0002,0.001,0.25,small,False
+phikon_v2,abmil,c05,0.795987260053024,0.0005,1e-05,0.5,default,False
+phikon_v2,abmil,c06,0.7780113725935156,0.001,1e-05,0.5,large,True
+phikon_v2,abmil,c07,0.7690273984484624,5e-05,0.0001,0.25,large,True
+phikon_v2,abmil,c08,0.8083404843350189,0.0002,1e-05,0.25,small,False
+phikon_v2,abmil,c09,0.7736609013543035,5e-05,0.0001,0.5,default,False
+phikon_v2,abmil,c10,0.7816509444508857,0.0005,0.0001,0.5,default,False
+phikon_v2,abmil,c11,0.776521924732722,0.001,0.01,0.25,small,False
+phikon_v2,abmil,c12,0.7837971025619938,5e-05,0.01,0.5,large,True

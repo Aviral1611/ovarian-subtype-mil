@@ -1,0 +1,9 @@
+{
+  "config": "c06",
+  "lr": 0.001,
+  "wd": 1e-05,
+  "dropout": 0.5,
+  "size": "large",
+  "class_weights": true,
+  "hidden": 256
+}

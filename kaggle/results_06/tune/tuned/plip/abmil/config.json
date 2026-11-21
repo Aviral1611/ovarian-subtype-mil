@@ -1,0 +1,9 @@
+{
+  "config": "c05",
+  "lr": 0.0005,
+  "wd": 1e-05,
+  "dropout": 0.5,
+  "size": "default",
+  "class_weights": false,
+  "hidden": 256
+}

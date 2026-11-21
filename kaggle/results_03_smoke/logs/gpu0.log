@@ -1,0 +1,23 @@
+[vits16_lunit] loaded 538 bags (1.16 GB) to cuda:0 in 71s
+fold 1 ep   1 | train 1.122 | val loss 0.702 bacc 0.582 f1 0.562 | 2s *
+fold 1 ep   2 | train 0.629 | val loss 0.589 bacc 0.631 f1 0.623 | 1s *
+fold 1 ep   3 | train 0.451 | val loss 0.526 bacc 0.648 f1 0.687 | 1s *
+fold 1 ep   4 | train 0.405 | val loss 0.364 bacc 0.854 f1 0.887 | 1s *
+fold 1 ep   5 | train 0.326 | val loss 0.426 bacc 0.815 f1 0.823 | 1s
+fold 1 done: best epoch 4, val bacc 0.854
+== [1/3] vits16_lunit/maxpool/seed0/fold1 done in 0.2 min | elapsed 0.02 h
+fold 1 ep   1 | train 0.859 | val loss 0.462 bacc 0.778 f1 0.777 | 1s *
+fold 1 ep   2 | train 0.509 | val loss 0.442 bacc 0.777 f1 0.815 | 1s *
+fold 1 ep   3 | train 0.386 | val loss 0.465 bacc 0.767 f1 0.814 | 1s
+fold 1 ep   4 | train 0.339 | val loss 0.359 bacc 0.850 f1 0.871 | 1s *
+fold 1 ep   5 | train 0.294 | val loss 0.466 bacc 0.806 f1 0.791 | 1s
+fold 1 done: best epoch 4, val bacc 0.850
+== [2/3] vits16_lunit/abmil/seed0/fold1 done in 0.1 min | elapsed 0.02 h
+fold 1 ep   1 | train 0.934 | val loss 0.577 bacc 0.718 f1 0.695 | 20s *
+fold 1 ep   2 | train 0.598 | val loss 0.689 bacc 0.653 f1 0.614 | 20s
+fold 1 ep   3 | train 0.401 | val loss 0.413 bacc 0.755 f1 0.800 | 21s *
+fold 1 ep   4 | train 0.196 | val loss 0.742 bacc 0.701 f1 0.736 | 22s
+fold 1 ep   5 | train 0.231 | val loss 0.479 bacc 0.820 f1 0.845 | 22s
+fold 1 done: best epoch 3, val bacc 0.755
+== [3/3] vits16_lunit/transmil/seed0/fold1 done in 1.8 min | elapsed 0.06 h
+GRID FINISHED: 3/3 runs complete

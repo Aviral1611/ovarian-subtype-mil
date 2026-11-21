@@ -1,0 +1,22 @@
+{
+  "epochs": 50,
+  "min_epochs": 10,
+  "patience": 10,
+  "accum": 1,
+  "max_patches": 8000,
+  "select": "loss",
+  "cache": false,
+  "lr": 0.001,
+  "wd": 0.01,
+  "dropout": 0.25,
+  "hidden": 128,
+  "class_weights": false,
+  "features": "/kaggle/input/notebooks/aviralbansal16/notebook4297f7f927/features/ctranspath",
+  "splits": "/tmp/code/splits_v2",
+  "model": "abmil",
+  "seed": 0,
+  "out": "/kaggle/working/tune/search/ctranspath/abmil/c11/seed0",
+  "fold": 1,
+  "in_dim": 768,
+  "device": "cuda:1"
+}

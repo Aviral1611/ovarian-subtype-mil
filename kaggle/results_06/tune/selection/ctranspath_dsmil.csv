@@ -1,0 +1,14 @@
+encoder,model,config,cv_bacc,lr,wd,dropout,size,class_weights
+ctranspath,dsmil,c00,0.7786267550187649,0.0002,0.0001,0.25,default,False
+ctranspath,dsmil,c01,0.7786267550187649,0.0002,1e-05,0.25,default,False
+ctranspath,dsmil,c02,0.787783442319966,5e-05,0.0001,0.25,large,False
+ctranspath,dsmil,c03,0.7807397673904748,0.0005,0.01,0.0,default,True
+ctranspath,dsmil,c04,0.7841295978989493,0.0002,0.001,0.25,small,False
+ctranspath,dsmil,c05,0.7894390754246895,0.0005,1e-05,0.5,default,False
+ctranspath,dsmil,c06,0.7934698605358843,0.001,1e-05,0.5,large,True
+ctranspath,dsmil,c07,0.787783442319966,5e-05,0.0001,0.25,large,True
+ctranspath,dsmil,c08,0.7841295978989493,0.0002,1e-05,0.25,small,False
+ctranspath,dsmil,c09,0.7760951094491446,5e-05,0.0001,0.5,default,False
+ctranspath,dsmil,c10,0.7845451135687024,0.0005,0.0001,0.5,default,False
+ctranspath,dsmil,c11,0.7975694917541596,0.001,0.01,0.25,small,False
+ctranspath,dsmil,c12,0.7880231273054138,5e-05,0.01,0.5,large,True

@@ -1,0 +1,1284 @@
+[phikon_v2] loaded 538 bags (3.10 GB) to cuda:0 in 97s
+fold 1 ep   1 | train 1.331 | val loss 1.116 bacc 0.443 f1 0.413 | 1s *
+fold 1 ep   2 | train 0.866 | val loss 0.781 bacc 0.557 f1 0.552 | 1s *
+fold 1 ep   3 | train 0.588 | val loss 0.651 bacc 0.558 f1 0.572 | 1s *
+fold 1 ep   4 | train 0.483 | val loss 0.478 bacc 0.803 f1 0.805 | 1s *
+fold 1 ep   5 | train 0.406 | val loss 0.505 bacc 0.799 f1 0.794 | 1s
+fold 1 ep   6 | train 0.321 | val loss 0.622 bacc 0.772 f1 0.716 | 1s
+fold 1 ep   7 | train 0.272 | val loss 0.335 bacc 0.881 f1 0.875 | 1s *
+fold 1 ep   8 | train 0.239 | val loss 0.333 bacc 0.844 f1 0.868 | 1s *
+fold 1 ep   9 | train 0.185 | val loss 0.398 bacc 0.833 f1 0.798 | 1s
+fold 1 ep  10 | train 0.160 | val loss 0.313 bacc 0.895 f1 0.892 | 1s *
+fold 1 ep  11 | train 0.122 | val loss 0.296 bacc 0.851 f1 0.861 | 1s *
+fold 1 ep  12 | train 0.092 | val loss 0.257 bacc 0.863 f1 0.880 | 1s *
+fold 1 ep  13 | train 0.095 | val loss 0.325 bacc 0.812 f1 0.841 | 1s
+fold 1 ep  14 | train 0.063 | val loss 0.318 bacc 0.852 f1 0.845 | 1s
+fold 1 ep  15 | train 0.043 | val loss 0.313 bacc 0.838 f1 0.843 | 1s
+fold 1 ep  16 | train 0.059 | val loss 0.288 bacc 0.847 f1 0.837 | 1s
+fold 1 ep  17 | train 0.023 | val loss 0.337 bacc 0.847 f1 0.835 | 1s
+fold 1 ep  18 | train 0.024 | val loss 0.292 bacc 0.848 f1 0.852 | 1s
+fold 1 ep  19 | train 0.017 | val loss 0.362 bacc 0.863 f1 0.826 | 1s
+fold 1 ep  20 | train 0.013 | val loss 0.299 bacc 0.829 f1 0.841 | 1s
+fold 1 ep  21 | train 0.015 | val loss 0.324 bacc 0.839 f1 0.856 | 1s
+fold 1 ep  22 | train 0.010 | val loss 0.288 bacc 0.858 f1 0.861 | 1s
+fold 1 done: best epoch 12, val bacc 0.863
+== [1/60] phikon_v2/maxpool/seed0/fold1 done in 0.4 min | elapsed 0.03 h
+fold 2 ep   1 | train 1.341 | val loss 1.131 bacc 0.503 f1 0.469 | 1s *
+fold 2 ep   2 | train 0.891 | val loss 0.808 bacc 0.573 f1 0.552 | 1s *
+fold 2 ep   3 | train 0.629 | val loss 0.643 bacc 0.612 f1 0.635 | 1s *
+fold 2 ep   4 | train 0.475 | val loss 0.528 bacc 0.667 f1 0.668 | 1s *
+fold 2 ep   5 | train 0.363 | val loss 0.638 bacc 0.716 f1 0.735 | 1s
+fold 2 ep   6 | train 0.300 | val loss 0.579 bacc 0.738 f1 0.732 | 1s
+fold 2 ep   7 | train 0.244 | val loss 0.695 bacc 0.842 f1 0.778 | 1s
+fold 2 ep   8 | train 0.203 | val loss 0.515 bacc 0.849 f1 0.812 | 1s *
+fold 2 ep   9 | train 0.165 | val loss 0.583 bacc 0.831 f1 0.822 | 1s
+fold 2 ep  10 | train 0.135 | val loss 0.593 bacc 0.828 f1 0.819 | 1s
+fold 2 ep  11 | train 0.093 | val loss 0.647 bacc 0.830 f1 0.794 | 1s
+fold 2 ep  12 | train 0.076 | val loss 0.576 bacc 0.782 f1 0.783 | 1s
+fold 2 ep  13 | train 0.069 | val loss 0.584 bacc 0.823 f1 0.809 | 1s
+fold 2 ep  14 | train 0.037 | val loss 0.636 bacc 0.824 f1 0.828 | 1s
+fold 2 ep  15 | train 0.052 | val loss 0.510 bacc 0.798 f1 0.820 | 1s *
+fold 2 ep  16 | train 0.053 | val loss 0.543 bacc 0.836 f1 0.824 | 1s
+fold 2 ep  17 | train 0.042 | val loss 0.595 bacc 0.797 f1 0.796 | 1s
+fold 2 ep  18 | train 0.013 | val loss 0.638 bacc 0.841 f1 0.821 | 1s
+fold 2 ep  19 | train 0.010 | val loss 0.640 bacc 0.851 f1 0.839 | 1s
+fold 2 ep  20 | train 0.008 | val loss 0.702 bacc 0.830 f1 0.812 | 1s
+fold 2 ep  21 | train 0.008 | val loss 0.653 bacc 0.826 f1 0.816 | 1s
+fold 2 ep  22 | train 0.005 | val loss 0.715 bacc 0.837 f1 0.825 | 1s
+fold 2 ep  23 | train 0.004 | val loss 0.759 bacc 0.851 f1 0.830 | 1s
+fold 2 ep  24 | train 0.003 | val loss 0.736 bacc 0.826 f1 0.813 | 1s
+fold 2 ep  25 | train 0.079 | val loss 0.686 bacc 0.812 f1 0.789 | 1s
+fold 2 done: best epoch 15, val bacc 0.798
+== [2/60] phikon_v2/maxpool/seed0/fold2 done in 0.4 min | elapsed 0.04 h
+fold 3 ep   1 | train 1.351 | val loss 1.206 bacc 0.447 f1 0.418 | 1s *
+fold 3 ep   2 | train 0.896 | val loss 0.950 bacc 0.472 f1 0.475 | 1s *
+fold 3 ep   3 | train 0.637 | val loss 0.723 bacc 0.686 f1 0.695 | 1s *
+fold 3 ep   4 | train 0.430 | val loss 0.671 bacc 0.774 f1 0.773 | 1s *
+fold 3 ep   5 | train 0.367 | val loss 0.579 bacc 0.724 f1 0.753 | 1s *
+fold 3 ep   6 | train 0.305 | val loss 0.712 bacc 0.652 f1 0.676 | 1s
+fold 3 ep   7 | train 0.258 | val loss 0.533 bacc 0.762 f1 0.771 | 1s *
+fold 3 ep   8 | train 0.215 | val loss 0.770 bacc 0.702 f1 0.719 | 1s
+fold 3 ep   9 | train 0.178 | val loss 0.726 bacc 0.648 f1 0.659 | 1s
+fold 3 ep  10 | train 0.143 | val loss 0.809 bacc 0.675 f1 0.701 | 1s
+fold 3 ep  11 | train 0.120 | val loss 0.903 bacc 0.634 f1 0.666 | 1s
+fold 3 ep  12 | train 0.089 | val loss 0.734 bacc 0.667 f1 0.674 | 1s
+fold 3 ep  13 | train 0.069 | val loss 0.983 bacc 0.675 f1 0.699 | 1s
+fold 3 ep  14 | train 0.058 | val loss 0.867 bacc 0.713 f1 0.733 | 1s
+fold 3 ep  15 | train 0.064 | val loss 0.728 bacc 0.713 f1 0.739 | 1s
+fold 3 ep  16 | train 0.033 | val loss 0.914 bacc 0.732 f1 0.746 | 1s
+fold 3 ep  17 | train 0.046 | val loss 0.805 bacc 0.723 f1 0.739 | 1s
+fold 3 ep  18 | train 0.037 | val loss 0.936 bacc 0.688 f1 0.707 | 1s
+fold 3 ep  19 | train 0.013 | val loss 0.948 bacc 0.699 f1 0.724 | 1s
+fold 3 done: best epoch 7, val bacc 0.762
+== [3/60] phikon_v2/maxpool/seed0/fold3 done in 0.3 min | elapsed 0.05 h
+fold 4 ep   1 | train 1.327 | val loss 1.155 bacc 0.370 f1 0.318 | 1s *
+fold 4 ep   2 | train 0.835 | val loss 0.833 bacc 0.622 f1 0.660 | 1s *
+fold 4 ep   3 | train 0.580 | val loss 0.663 bacc 0.747 f1 0.775 | 1s *
+fold 4 ep   4 | train 0.435 | val loss 0.587 bacc 0.720 f1 0.753 | 1s *
+fold 4 ep   5 | train 0.331 | val loss 0.597 bacc 0.677 f1 0.709 | 1s
+fold 4 ep   6 | train 0.281 | val loss 0.554 bacc 0.753 f1 0.767 | 1s *
+fold 4 ep   7 | train 0.238 | val loss 0.565 bacc 0.767 f1 0.770 | 1s
+fold 4 ep   8 | train 0.179 | val loss 0.625 bacc 0.803 f1 0.806 | 1s
+fold 4 ep   9 | train 0.134 | val loss 0.654 bacc 0.758 f1 0.751 | 1s
+fold 4 ep  10 | train 0.107 | val loss 0.659 bacc 0.755 f1 0.772 | 1s
+fold 4 ep  11 | train 0.076 | val loss 0.838 bacc 0.758 f1 0.751 | 1s
+fold 4 ep  12 | train 0.066 | val loss 0.687 bacc 0.763 f1 0.772 | 1s
+fold 4 ep  13 | train 0.053 | val loss 0.706 bacc 0.744 f1 0.754 | 1s
+fold 4 ep  14 | train 0.028 | val loss 0.795 bacc 0.753 f1 0.761 | 1s
+fold 4 ep  15 | train 0.022 | val loss 0.760 bacc 0.748 f1 0.754 | 1s
+fold 4 ep  16 | train 0.019 | val loss 0.780 bacc 0.783 f1 0.790 | 1s
+fold 4 ep  17 | train 0.022 | val loss 0.898 bacc 0.726 f1 0.721 | 1s
+fold 4 ep  18 | train 0.021 | val loss 0.971 bacc 0.727 f1 0.740 | 1s
+fold 4 ep  19 | train 0.008 | val loss 0.939 bacc 0.743 f1 0.750 | 1s
+fold 4 done: best epoch 6, val bacc 0.753
+== [4/60] phikon_v2/maxpool/seed0/fold4 done in 0.3 min | elapsed 0.05 h
+fold 5 ep   1 | train 1.331 | val loss 1.115 bacc 0.400 f1 0.380 | 1s *
+fold 5 ep   2 | train 0.868 | val loss 1.084 bacc 0.501 f1 0.433 | 1s *
+fold 5 ep   3 | train 0.604 | val loss 0.615 bacc 0.782 f1 0.772 | 1s *
+fold 5 ep   4 | train 0.438 | val loss 0.554 bacc 0.767 f1 0.795 | 1s *
+fold 5 ep   5 | train 0.377 | val loss 0.561 bacc 0.773 f1 0.805 | 1s
+fold 5 ep   6 | train 0.327 | val loss 0.600 bacc 0.686 f1 0.734 | 1s
+fold 5 ep   7 | train 0.240 | val loss 0.699 bacc 0.728 f1 0.728 | 1s
+fold 5 ep   8 | train 0.209 | val loss 0.514 bacc 0.794 f1 0.818 | 1s *
+fold 5 ep   9 | train 0.173 | val loss 0.510 bacc 0.857 f1 0.872 | 1s *
+fold 5 ep  10 | train 0.139 | val loss 0.455 bacc 0.833 f1 0.856 | 1s *
+fold 5 ep  11 | train 0.103 | val loss 0.471 bacc 0.840 f1 0.854 | 1s
+fold 5 ep  12 | train 0.090 | val loss 0.500 bacc 0.856 f1 0.864 | 1s
+fold 5 ep  13 | train 0.063 | val loss 0.548 bacc 0.781 f1 0.812 | 1s
+fold 5 ep  14 | train 0.045 | val loss 0.528 bacc 0.795 f1 0.822 | 1s
+fold 5 ep  15 | train 0.036 | val loss 0.546 bacc 0.804 f1 0.826 | 1s
+fold 5 ep  16 | train 0.029 | val loss 0.526 bacc 0.833 f1 0.842 | 1s
+fold 5 ep  17 | train 0.021 | val loss 0.585 bacc 0.839 f1 0.864 | 1s
+fold 5 ep  18 | train 0.051 | val loss 0.582 bacc 0.839 f1 0.864 | 1s
+fold 5 ep  19 | train 0.016 | val loss 0.634 bacc 0.788 f1 0.824 | 1s
+fold 5 ep  20 | train 0.024 | val loss 0.667 bacc 0.778 f1 0.814 | 1s
+fold 5 done: best epoch 10, val bacc 0.833
+== [5/60] phikon_v2/maxpool/seed0/fold5 done in 0.4 min | elapsed 0.06 h
+fold 1 ep   1 | train 1.307 | val loss 1.000 bacc 0.468 f1 0.464 | 1s *
+fold 1 ep   2 | train 0.854 | val loss 0.707 bacc 0.561 f1 0.572 | 1s *
+fold 1 ep   3 | train 0.613 | val loss 0.774 bacc 0.488 f1 0.524 | 1s
+fold 1 ep   4 | train 0.534 | val loss 0.488 bacc 0.722 f1 0.756 | 1s *
+fold 1 ep   5 | train 0.451 | val loss 0.546 bacc 0.759 f1 0.781 | 1s
+fold 1 ep   6 | train 0.404 | val loss 0.688 bacc 0.789 f1 0.739 | 1s
+fold 1 ep   7 | train 0.351 | val loss 0.455 bacc 0.797 f1 0.825 | 1s *
+fold 1 ep   8 | train 0.304 | val loss 0.434 bacc 0.735 f1 0.771 | 1s *
+fold 1 ep   9 | train 0.264 | val loss 0.556 bacc 0.813 f1 0.775 | 1s
+fold 1 ep  10 | train 0.243 | val loss 0.480 bacc 0.763 f1 0.799 | 1s
+fold 1 ep  11 | train 0.218 | val loss 0.431 bacc 0.798 f1 0.834 | 1s *
+fold 1 ep  12 | train 0.170 | val loss 0.542 bacc 0.726 f1 0.771 | 1s
+fold 1 ep  13 | train 0.186 | val loss 0.474 bacc 0.772 f1 0.799 | 1s
+fold 1 ep  14 | train 0.131 | val loss 0.412 bacc 0.788 f1 0.813 | 1s *
+fold 1 ep  15 | train 0.115 | val loss 0.421 bacc 0.838 f1 0.852 | 1s
+fold 1 ep  16 | train 0.121 | val loss 0.439 bacc 0.769 f1 0.765 | 1s
+fold 1 ep  17 | train 0.081 | val loss 0.732 bacc 0.778 f1 0.724 | 1s
+fold 1 ep  18 | train 0.074 | val loss 0.532 bacc 0.799 f1 0.765 | 1s
+fold 1 ep  19 | train 0.077 | val loss 0.414 bacc 0.837 f1 0.835 | 1s
+fold 1 ep  20 | train 0.059 | val loss 0.526 bacc 0.742 f1 0.761 | 1s
+fold 1 ep  21 | train 0.060 | val loss 0.439 bacc 0.831 f1 0.817 | 1s
+fold 1 ep  22 | train 0.048 | val loss 0.836 bacc 0.780 f1 0.723 | 1s
+fold 1 ep  23 | train 0.053 | val loss 0.598 bacc 0.809 f1 0.808 | 1s
+fold 1 ep  24 | train 0.081 | val loss 0.434 bacc 0.824 f1 0.821 | 1s
+fold 1 done: best epoch 14, val bacc 0.788
+== [6/60] phikon_v2/meanpool/seed0/fold1 done in 0.4 min | elapsed 0.06 h
+fold 2 ep   1 | train 1.328 | val loss 0.948 bacc 0.524 f1 0.499 | 1s *
+fold 2 ep   2 | train 0.847 | val loss 0.730 bacc 0.548 f1 0.512 | 1s *
+fold 2 ep   3 | train 0.630 | val loss 0.598 bacc 0.754 f1 0.797 | 1s *
+fold 2 ep   4 | train 0.510 | val loss 0.522 bacc 0.814 f1 0.841 | 1s *
+fold 2 ep   5 | train 0.402 | val loss 0.675 bacc 0.782 f1 0.797 | 1s
+fold 2 ep   6 | train 0.352 | val loss 0.604 bacc 0.757 f1 0.758 | 1s
+fold 2 ep   7 | train 0.304 | val loss 0.786 bacc 0.759 f1 0.709 | 1s
+fold 2 ep   8 | train 0.289 | val loss 0.634 bacc 0.797 f1 0.779 | 1s
+fold 2 ep   9 | train 0.247 | val loss 0.636 bacc 0.803 f1 0.798 | 1s
+fold 2 ep  10 | train 0.224 | val loss 0.584 bacc 0.813 f1 0.821 | 1s
+fold 2 ep  11 | train 0.166 | val loss 0.893 bacc 0.707 f1 0.645 | 1s
+fold 2 ep  12 | train 0.159 | val loss 0.681 bacc 0.818 f1 0.828 | 1s
+fold 2 ep  13 | train 0.146 | val loss 0.691 bacc 0.824 f1 0.835 | 1s
+fold 2 ep  14 | train 0.107 | val loss 0.711 bacc 0.818 f1 0.834 | 1s
+fold 2 ep  15 | train 0.128 | val loss 0.668 bacc 0.842 f1 0.833 | 1s
+fold 2 ep  16 | train 0.092 | val loss 0.719 bacc 0.815 f1 0.793 | 1s
+fold 2 ep  17 | train 0.112 | val loss 0.737 bacc 0.816 f1 0.798 | 1s
+fold 2 ep  18 | train 0.068 | val loss 0.971 bacc 0.769 f1 0.745 | 1s
+fold 2 ep  19 | train 0.044 | val loss 0.817 bacc 0.824 f1 0.840 | 1s
+fold 2 done: best epoch 4, val bacc 0.814
+== [7/60] phikon_v2/meanpool/seed0/fold2 done in 0.3 min | elapsed 0.07 h
+fold 3 ep   1 | train 1.291 | val loss 1.015 bacc 0.465 f1 0.414 | 1s *
+fold 3 ep   2 | train 0.831 | val loss 0.996 bacc 0.474 f1 0.503 | 1s *
+fold 3 ep   3 | train 0.620 | val loss 0.741 bacc 0.644 f1 0.628 | 1s *
+fold 3 ep   4 | train 0.445 | val loss 0.787 bacc 0.756 f1 0.749 | 1s
+fold 3 ep   5 | train 0.392 | val loss 0.689 bacc 0.723 f1 0.747 | 1s *
+fold 3 ep   6 | train 0.340 | val loss 0.923 bacc 0.595 f1 0.607 | 1s
+fold 3 ep   7 | train 0.309 | val loss 0.715 bacc 0.765 f1 0.786 | 1s
+fold 3 ep   8 | train 0.270 | val loss 0.823 bacc 0.685 f1 0.716 | 1s
+fold 3 ep   9 | train 0.225 | val loss 0.986 bacc 0.630 f1 0.656 | 1s
+fold 3 ep  10 | train 0.214 | val loss 1.002 bacc 0.657 f1 0.695 | 1s
+fold 3 ep  11 | train 0.166 | val loss 1.079 bacc 0.651 f1 0.697 | 1s
+fold 3 ep  12 | train 0.160 | val loss 0.999 bacc 0.640 f1 0.660 | 1s
+fold 3 ep  13 | train 0.154 | val loss 1.297 bacc 0.625 f1 0.652 | 1s
+fold 3 ep  14 | train 0.129 | val loss 1.142 bacc 0.680 f1 0.711 | 1s
+fold 3 ep  15 | train 0.101 | val loss 1.117 bacc 0.680 f1 0.711 | 1s
+fold 3 ep  16 | train 0.074 | val loss 1.270 bacc 0.679 f1 0.679 | 1s
+fold 3 ep  17 | train 0.090 | val loss 1.204 bacc 0.689 f1 0.711 | 1s
+fold 3 ep  18 | train 0.092 | val loss 1.368 bacc 0.669 f1 0.699 | 1s
+fold 3 ep  19 | train 0.055 | val loss 1.479 bacc 0.684 f1 0.723 | 1s
+fold 3 done: best epoch 5, val bacc 0.723
+== [8/60] phikon_v2/meanpool/seed0/fold3 done in 0.3 min | elapsed 0.07 h
+fold 4 ep   1 | train 1.307 | val loss 1.103 bacc 0.370 f1 0.318 | 1s *
+fold 4 ep   2 | train 0.820 | val loss 0.881 bacc 0.566 f1 0.609 | 1s *
+fold 4 ep   3 | train 0.615 | val loss 0.702 bacc 0.636 f1 0.646 | 1s *
+fold 4 ep   4 | train 0.492 | val loss 0.701 bacc 0.717 f1 0.760 | 1s *
+fold 4 ep   5 | train 0.397 | val loss 0.699 bacc 0.695 f1 0.730 | 1s *
+fold 4 ep   6 | train 0.370 | val loss 0.664 bacc 0.728 f1 0.750 | 1s *
+fold 4 ep   7 | train 0.302 | val loss 0.682 bacc 0.802 f1 0.784 | 1s
+fold 4 ep   8 | train 0.261 | val loss 0.716 bacc 0.782 f1 0.759 | 1s
+fold 4 ep   9 | train 0.223 | val loss 0.732 bacc 0.773 f1 0.765 | 1s
+fold 4 ep  10 | train 0.201 | val loss 0.776 bacc 0.762 f1 0.774 | 1s
+fold 4 ep  11 | train 0.158 | val loss 0.945 bacc 0.738 f1 0.722 | 1s
+fold 4 ep  12 | train 0.144 | val loss 0.897 bacc 0.751 f1 0.741 | 1s
+fold 4 ep  13 | train 0.127 | val loss 0.891 bacc 0.771 f1 0.775 | 1s
+fold 4 ep  14 | train 0.105 | val loss 1.038 bacc 0.724 f1 0.719 | 1s
+fold 4 ep  15 | train 0.108 | val loss 1.204 bacc 0.700 f1 0.677 | 1s
+fold 4 ep  16 | train 0.095 | val loss 0.950 bacc 0.751 f1 0.752 | 1s
+fold 4 ep  17 | train 0.090 | val loss 1.076 bacc 0.763 f1 0.750 | 1s
+fold 4 ep  18 | train 0.069 | val loss 1.144 bacc 0.697 f1 0.709 | 1s
+fold 4 ep  19 | train 0.072 | val loss 1.075 bacc 0.750 f1 0.739 | 1s
+fold 4 done: best epoch 6, val bacc 0.728
+== [9/60] phikon_v2/meanpool/seed0/fold4 done in 0.3 min | elapsed 0.08 h
+fold 5 ep   1 | train 1.298 | val loss 0.947 bacc 0.449 f1 0.422 | 1s *
+fold 5 ep   2 | train 0.830 | val loss 0.957 bacc 0.596 f1 0.589 | 1s
+fold 5 ep   3 | train 0.620 | val loss 0.619 bacc 0.782 f1 0.789 | 1s *
+fold 5 ep   4 | train 0.482 | val loss 0.639 bacc 0.722 f1 0.765 | 1s
+fold 5 ep   5 | train 0.410 | val loss 0.665 bacc 0.716 f1 0.759 | 1s
+fold 5 ep   6 | train 0.380 | val loss 0.744 bacc 0.658 f1 0.713 | 1s
+fold 5 ep   7 | train 0.301 | val loss 0.903 bacc 0.684 f1 0.700 | 1s
+fold 5 ep   8 | train 0.273 | val loss 0.667 bacc 0.741 f1 0.779 | 1s
+fold 5 ep   9 | train 0.254 | val loss 0.719 bacc 0.743 f1 0.752 | 1s
+fold 5 ep  10 | train 0.220 | val loss 0.663 bacc 0.777 f1 0.810 | 1s
+fold 5 ep  11 | train 0.200 | val loss 0.635 bacc 0.765 f1 0.771 | 1s
+fold 5 ep  12 | train 0.185 | val loss 0.732 bacc 0.758 f1 0.776 | 1s
+fold 5 ep  13 | train 0.123 | val loss 0.812 bacc 0.681 f1 0.702 | 1s
+fold 5 ep  14 | train 0.148 | val loss 0.752 bacc 0.759 f1 0.753 | 1s
+fold 5 ep  15 | train 0.109 | val loss 0.683 bacc 0.751 f1 0.764 | 1s
+fold 5 ep  16 | train 0.085 | val loss 0.721 bacc 0.793 f1 0.790 | 1s
+fold 5 ep  17 | train 0.077 | val loss 0.835 bacc 0.731 f1 0.765 | 1s
+fold 5 ep  18 | train 0.085 | val loss 0.812 bacc 0.734 f1 0.768 | 1s
+fold 5 ep  19 | train 0.059 | val loss 0.976 bacc 0.686 f1 0.713 | 1s
+fold 5 done: best epoch 3, val bacc 0.782
+== [10/60] phikon_v2/meanpool/seed0/fold5 done in 0.3 min | elapsed 0.08 h
+fold 1 ep   1 | train 1.222 | val loss 0.790 bacc 0.582 f1 0.567 | 1s *
+fold 1 ep   2 | train 0.662 | val loss 0.552 bacc 0.660 f1 0.680 | 1s *
+fold 1 ep   3 | train 0.474 | val loss 0.464 bacc 0.734 f1 0.775 | 1s *
+fold 1 ep   4 | train 0.382 | val loss 0.397 bacc 0.825 f1 0.857 | 1s *
+fold 1 ep   5 | train 0.316 | val loss 0.477 bacc 0.807 f1 0.811 | 1s
+fold 1 ep   6 | train 0.260 | val loss 0.572 bacc 0.799 f1 0.763 | 1s
+fold 1 ep   7 | train 0.237 | val loss 0.340 bacc 0.829 f1 0.839 | 1s *
+fold 1 ep   8 | train 0.186 | val loss 0.425 bacc 0.739 f1 0.769 | 1s
+fold 1 ep   9 | train 0.143 | val loss 0.518 bacc 0.800 f1 0.771 | 1s
+fold 1 ep  10 | train 0.125 | val loss 0.522 bacc 0.776 f1 0.766 | 1s
+fold 1 ep  11 | train 0.142 | val loss 0.463 bacc 0.803 f1 0.799 | 1s
+fold 1 ep  12 | train 0.076 | val loss 0.424 bacc 0.866 f1 0.844 | 1s
+fold 1 ep  13 | train 0.076 | val loss 0.495 bacc 0.817 f1 0.802 | 1s
+fold 1 ep  14 | train 0.053 | val loss 0.462 bacc 0.862 f1 0.854 | 1s
+fold 1 ep  15 | train 0.048 | val loss 0.464 bacc 0.828 f1 0.828 | 1s
+fold 1 ep  16 | train 0.032 | val loss 0.499 bacc 0.833 f1 0.828 | 1s
+fold 1 ep  17 | train 0.058 | val loss 0.419 bacc 0.813 f1 0.811 | 1s
+fold 1 ep  18 | train 0.023 | val loss 0.497 bacc 0.823 f1 0.826 | 1s
+fold 1 ep  19 | train 0.013 | val loss 0.548 bacc 0.813 f1 0.808 | 1s
+fold 1 done: best epoch 7, val bacc 0.829
+== [11/60] phikon_v2/abmil/seed0/fold1 done in 0.4 min | elapsed 0.09 h
+fold 2 ep   1 | train 1.227 | val loss 0.794 bacc 0.650 f1 0.638 | 1s *
+fold 2 ep   2 | train 0.664 | val loss 0.651 bacc 0.689 f1 0.700 | 1s *
+fold 2 ep   3 | train 0.463 | val loss 0.467 bacc 0.780 f1 0.791 | 1s *
+fold 2 ep   4 | train 0.358 | val loss 0.486 bacc 0.810 f1 0.807 | 1s
+fold 2 ep   5 | train 0.284 | val loss 0.550 bacc 0.765 f1 0.780 | 1s
+fold 2 ep   6 | train 0.252 | val loss 0.512 bacc 0.802 f1 0.798 | 1s
+fold 2 ep   7 | train 0.199 | val loss 0.651 bacc 0.884 f1 0.854 | 1s
+fold 2 ep   8 | train 0.174 | val loss 0.583 bacc 0.876 f1 0.860 | 1s
+fold 2 ep   9 | train 0.148 | val loss 0.606 bacc 0.808 f1 0.809 | 1s
+fold 2 ep  10 | train 0.120 | val loss 0.517 bacc 0.799 f1 0.810 | 1s
+fold 2 ep  11 | train 0.091 | val loss 0.662 bacc 0.828 f1 0.815 | 1s
+fold 2 ep  12 | train 0.074 | val loss 0.658 bacc 0.808 f1 0.804 | 1s
+fold 2 ep  13 | train 0.083 | val loss 0.735 bacc 0.808 f1 0.803 | 1s
+fold 2 ep  14 | train 0.038 | val loss 0.765 bacc 0.808 f1 0.803 | 1s
+fold 2 ep  15 | train 0.037 | val loss 0.666 bacc 0.798 f1 0.791 | 1s
+fold 2 ep  16 | train 0.044 | val loss 0.777 bacc 0.798 f1 0.788 | 1s
+fold 2 ep  17 | train 0.034 | val loss 0.735 bacc 0.798 f1 0.794 | 1s
+fold 2 ep  18 | train 0.024 | val loss 0.897 bacc 0.813 f1 0.811 | 1s
+fold 2 ep  19 | train 0.067 | val loss 0.744 bacc 0.803 f1 0.803 | 1s
+fold 2 done: best epoch 3, val bacc 0.780
+== [12/60] phikon_v2/abmil/seed0/fold2 done in 0.4 min | elapsed 0.10 h
+fold 3 ep   1 | train 1.176 | val loss 0.816 bacc 0.584 f1 0.609 | 1s *
+fold 3 ep   2 | train 0.630 | val loss 0.703 bacc 0.664 f1 0.704 | 1s *
+fold 3 ep   3 | train 0.446 | val loss 0.603 bacc 0.766 f1 0.801 | 1s *
+fold 3 ep   4 | train 0.327 | val loss 0.562 bacc 0.752 f1 0.762 | 1s *
+fold 3 ep   5 | train 0.271 | val loss 0.673 bacc 0.698 f1 0.744 | 1s
+fold 3 ep   6 | train 0.223 | val loss 0.784 bacc 0.716 f1 0.763 | 1s
+fold 3 ep   7 | train 0.208 | val loss 0.564 bacc 0.805 f1 0.828 | 1s
+fold 3 ep   8 | train 0.177 | val loss 0.718 bacc 0.773 f1 0.789 | 1s
+fold 3 ep   9 | train 0.144 | val loss 0.851 bacc 0.708 f1 0.754 | 1s
+fold 3 ep  10 | train 0.116 | val loss 0.902 bacc 0.723 f1 0.758 | 1s
+fold 3 ep  11 | train 0.098 | val loss 1.002 bacc 0.686 f1 0.739 | 1s
+fold 3 ep  12 | train 0.074 | val loss 0.962 bacc 0.737 f1 0.780 | 1s
+fold 3 ep  13 | train 0.072 | val loss 1.087 bacc 0.723 f1 0.759 | 1s
+fold 3 ep  14 | train 0.054 | val loss 1.060 bacc 0.729 f1 0.763 | 1s
+fold 3 ep  15 | train 0.067 | val loss 1.125 bacc 0.729 f1 0.763 | 1s
+fold 3 ep  16 | train 0.060 | val loss 1.105 bacc 0.761 f1 0.779 | 1s
+fold 3 ep  17 | train 0.069 | val loss 1.188 bacc 0.711 f1 0.746 | 1s
+fold 3 ep  18 | train 0.056 | val loss 1.080 bacc 0.736 f1 0.768 | 1s
+fold 3 ep  19 | train 0.059 | val loss 1.114 bacc 0.704 f1 0.742 | 1s
+fold 3 done: best epoch 4, val bacc 0.752
+== [13/60] phikon_v2/abmil/seed0/fold3 done in 0.4 min | elapsed 0.10 h
+fold 4 ep   1 | train 1.199 | val loss 0.892 bacc 0.488 f1 0.493 | 1s *
+fold 4 ep   2 | train 0.611 | val loss 0.603 bacc 0.814 f1 0.822 | 1s *
+fold 4 ep   3 | train 0.438 | val loss 0.563 bacc 0.741 f1 0.754 | 1s *
+fold 4 ep   4 | train 0.338 | val loss 0.553 bacc 0.691 f1 0.712 | 1s *
+fold 4 ep   5 | train 0.260 | val loss 0.555 bacc 0.741 f1 0.761 | 1s
+fold 4 ep   6 | train 0.235 | val loss 0.565 bacc 0.683 f1 0.696 | 1s
+fold 4 ep   7 | train 0.170 | val loss 0.596 bacc 0.703 f1 0.714 | 1s
+fold 4 ep   8 | train 0.130 | val loss 0.740 bacc 0.689 f1 0.678 | 1s
+fold 4 ep   9 | train 0.112 | val loss 0.733 bacc 0.709 f1 0.693 | 1s
+fold 4 ep  10 | train 0.118 | val loss 0.671 bacc 0.702 f1 0.692 | 1s
+fold 4 ep  11 | train 0.063 | val loss 0.693 bacc 0.729 f1 0.715 | 1s
+fold 4 ep  12 | train 0.061 | val loss 0.644 bacc 0.749 f1 0.756 | 1s
+fold 4 ep  13 | train 0.056 | val loss 0.667 bacc 0.713 f1 0.710 | 1s
+fold 4 ep  14 | train 0.069 | val loss 0.778 bacc 0.674 f1 0.667 | 1s
+fold 4 ep  15 | train 0.066 | val loss 0.747 bacc 0.703 f1 0.702 | 1s
+fold 4 ep  16 | train 0.033 | val loss 0.751 bacc 0.728 f1 0.734 | 1s
+fold 4 ep  17 | train 0.020 | val loss 0.779 bacc 0.704 f1 0.709 | 1s
+fold 4 ep  18 | train 0.017 | val loss 0.851 bacc 0.693 f1 0.702 | 1s
+fold 4 ep  19 | train 0.037 | val loss 0.688 bacc 0.728 f1 0.745 | 1s
+fold 4 done: best epoch 4, val bacc 0.691
+== [14/60] phikon_v2/abmil/seed0/fold4 done in 0.4 min | elapsed 0.11 h
+fold 5 ep   1 | train 1.195 | val loss 0.827 bacc 0.526 f1 0.539 | 1s *
+fold 5 ep   2 | train 0.636 | val loss 0.704 bacc 0.700 f1 0.733 | 1s *
+fold 5 ep   3 | train 0.441 | val loss 0.577 bacc 0.816 f1 0.812 | 1s *
+fold 5 ep   4 | train 0.332 | val loss 0.569 bacc 0.809 f1 0.811 | 1s *
+fold 5 ep   5 | train 0.288 | val loss 0.643 bacc 0.781 f1 0.809 | 1s
+fold 5 ep   6 | train 0.229 | val loss 0.799 bacc 0.762 f1 0.787 | 1s
+fold 5 ep   7 | train 0.201 | val loss 0.770 bacc 0.775 f1 0.796 | 1s
+fold 5 ep   8 | train 0.153 | val loss 0.649 bacc 0.784 f1 0.814 | 1s
+fold 5 ep   9 | train 0.144 | val loss 0.768 bacc 0.811 f1 0.814 | 1s
+fold 5 ep  10 | train 0.150 | val loss 0.592 bacc 0.824 f1 0.817 | 1s
+fold 5 ep  11 | train 0.096 | val loss 0.741 bacc 0.792 f1 0.805 | 1s
+fold 5 ep  12 | train 0.109 | val loss 0.775 bacc 0.812 f1 0.794 | 1s
+fold 5 ep  13 | train 0.116 | val loss 0.837 bacc 0.786 f1 0.796 | 1s
+fold 5 ep  14 | train 0.078 | val loss 0.760 bacc 0.817 f1 0.823 | 1s
+fold 5 ep  15 | train 0.048 | val loss 0.807 bacc 0.827 f1 0.834 | 1s
+fold 5 ep  16 | train 0.035 | val loss 0.763 bacc 0.824 f1 0.837 | 1s
+fold 5 ep  17 | train 0.032 | val loss 0.850 bacc 0.763 f1 0.789 | 1s
+fold 5 ep  18 | train 0.069 | val loss 0.767 bacc 0.792 f1 0.810 | 1s
+fold 5 ep  19 | train 0.050 | val loss 0.849 bacc 0.812 f1 0.824 | 1s
+fold 5 done: best epoch 4, val bacc 0.809
+== [15/60] phikon_v2/abmil/seed0/fold5 done in 0.4 min | elapsed 0.11 h
+fold 1 ep   1 | train 1.251 | val loss 0.953 bacc 0.640 f1 0.669 | 3s *
+fold 1 ep   2 | train 0.921 | val loss 0.851 bacc 0.641 f1 0.669 | 3s *
+fold 1 ep   3 | train 0.756 | val loss 0.729 bacc 0.739 f1 0.779 | 3s *
+fold 1 ep   4 | train 0.649 | val loss 0.654 bacc 0.790 f1 0.831 | 3s *
+fold 1 ep   5 | train 0.557 | val loss 0.678 bacc 0.827 f1 0.840 | 3s
+fold 1 ep   6 | train 0.494 | val loss 0.760 bacc 0.800 f1 0.753 | 3s
+fold 1 ep   7 | train 0.434 | val loss 0.579 bacc 0.842 f1 0.843 | 3s *
+fold 1 ep   8 | train 0.394 | val loss 0.653 bacc 0.743 f1 0.787 | 3s
+fold 1 ep   9 | train 0.374 | val loss 0.675 bacc 0.788 f1 0.735 | 3s
+fold 1 ep  10 | train 0.336 | val loss 0.669 bacc 0.802 f1 0.763 | 3s
+fold 1 ep  11 | train 0.303 | val loss 0.637 bacc 0.775 f1 0.803 | 3s
+fold 1 ep  12 | train 0.285 | val loss 0.633 bacc 0.835 f1 0.825 | 3s
+fold 1 ep  13 | train 0.267 | val loss 0.572 bacc 0.823 f1 0.822 | 3s *
+fold 1 ep  14 | train 0.243 | val loss 0.613 bacc 0.812 f1 0.817 | 3s
+fold 1 ep  15 | train 0.240 | val loss 0.706 bacc 0.821 f1 0.829 | 3s
+fold 1 ep  16 | train 0.227 | val loss 0.609 bacc 0.815 f1 0.822 | 3s
+fold 1 ep  17 | train 0.223 | val loss 0.738 bacc 0.811 f1 0.774 | 3s
+fold 1 ep  18 | train 0.242 | val loss 0.652 bacc 0.774 f1 0.780 | 3s
+fold 1 ep  19 | train 0.227 | val loss 0.758 bacc 0.800 f1 0.773 | 3s
+fold 1 ep  20 | train 0.207 | val loss 0.643 bacc 0.811 f1 0.804 | 3s
+fold 1 ep  21 | train 0.184 | val loss 0.593 bacc 0.858 f1 0.866 | 3s
+fold 1 ep  22 | train 0.181 | val loss 0.602 bacc 0.823 f1 0.835 | 3s
+fold 1 ep  23 | train 0.173 | val loss 0.616 bacc 0.822 f1 0.827 | 3s
+fold 1 done: best epoch 13, val bacc 0.823
+== [16/60] phikon_v2/dsmil/seed0/fold1 done in 1.0 min | elapsed 0.13 h
+fold 2 ep   1 | train 1.241 | val loss 0.917 bacc 0.748 f1 0.743 | 3s *
+fold 2 ep   2 | train 0.834 | val loss 0.809 bacc 0.765 f1 0.791 | 3s *
+fold 2 ep   3 | train 0.687 | val loss 0.690 bacc 0.789 f1 0.813 | 3s *
+fold 2 ep   4 | train 0.570 | val loss 0.666 bacc 0.814 f1 0.828 | 3s *
+fold 2 ep   5 | train 0.488 | val loss 0.776 bacc 0.782 f1 0.790 | 3s
+fold 2 ep   6 | train 0.434 | val loss 0.623 bacc 0.770 f1 0.789 | 3s *
+fold 2 ep   7 | train 0.373 | val loss 0.698 bacc 0.843 f1 0.835 | 3s
+fold 2 ep   8 | train 0.355 | val loss 0.642 bacc 0.878 f1 0.865 | 3s
+fold 2 ep   9 | train 0.305 | val loss 0.717 bacc 0.808 f1 0.811 | 3s
+fold 2 ep  10 | train 0.301 | val loss 0.735 bacc 0.793 f1 0.790 | 3s
+fold 2 ep  11 | train 0.276 | val loss 1.096 bacc 0.776 f1 0.772 | 3s
+fold 2 ep  12 | train 0.269 | val loss 0.781 bacc 0.783 f1 0.783 | 3s
+fold 2 ep  13 | train 0.229 | val loss 0.840 bacc 0.799 f1 0.809 | 3s
+fold 2 ep  14 | train 0.210 | val loss 0.788 bacc 0.814 f1 0.817 | 3s
+fold 2 ep  15 | train 0.198 | val loss 0.779 bacc 0.814 f1 0.818 | 3s
+fold 2 ep  16 | train 0.192 | val loss 0.845 bacc 0.819 f1 0.808 | 3s
+fold 2 ep  17 | train 0.186 | val loss 0.796 bacc 0.853 f1 0.859 | 3s
+fold 2 ep  18 | train 0.182 | val loss 0.785 bacc 0.830 f1 0.821 | 3s
+fold 2 ep  19 | train 0.258 | val loss 0.812 bacc 0.814 f1 0.812 | 3s
+fold 2 done: best epoch 6, val bacc 0.770
+== [17/60] phikon_v2/dsmil/seed0/fold2 done in 0.8 min | elapsed 0.15 h
+fold 3 ep   1 | train 1.218 | val loss 1.008 bacc 0.675 f1 0.680 | 3s *
+fold 3 ep   2 | train 0.856 | val loss 1.037 bacc 0.616 f1 0.647 | 3s
+fold 3 ep   3 | train 0.720 | val loss 0.878 bacc 0.667 f1 0.695 | 3s *
+fold 3 ep   4 | train 0.602 | val loss 0.844 bacc 0.774 f1 0.776 | 3s *
+fold 3 ep   5 | train 0.533 | val loss 0.820 bacc 0.709 f1 0.746 | 3s *
+fold 3 ep   6 | train 0.467 | val loss 0.919 bacc 0.654 f1 0.693 | 3s
+fold 3 ep   7 | train 0.414 | val loss 0.822 bacc 0.759 f1 0.778 | 3s
+fold 3 ep   8 | train 0.375 | val loss 0.941 bacc 0.695 f1 0.723 | 3s
+fold 3 ep   9 | train 0.336 | val loss 0.870 bacc 0.709 f1 0.745 | 3s
+fold 3 ep  10 | train 0.333 | val loss 0.969 bacc 0.689 f1 0.725 | 3s
+fold 3 ep  11 | train 0.304 | val loss 1.095 bacc 0.667 f1 0.705 | 3s
+fold 3 ep  12 | train 0.274 | val loss 1.020 bacc 0.699 f1 0.736 | 3s
+fold 3 ep  13 | train 0.298 | val loss 1.035 bacc 0.654 f1 0.681 | 3s
+fold 3 ep  14 | train 0.256 | val loss 1.114 bacc 0.673 f1 0.712 | 3s
+fold 3 ep  15 | train 0.228 | val loss 1.016 bacc 0.709 f1 0.738 | 3s
+fold 3 ep  16 | train 0.216 | val loss 1.083 bacc 0.762 f1 0.774 | 3s
+fold 3 ep  17 | train 0.207 | val loss 1.147 bacc 0.680 f1 0.713 | 3s
+fold 3 ep  18 | train 0.196 | val loss 1.181 bacc 0.680 f1 0.719 | 3s
+fold 3 ep  19 | train 0.189 | val loss 1.177 bacc 0.705 f1 0.737 | 3s
+fold 3 done: best epoch 5, val bacc 0.709
+== [18/60] phikon_v2/dsmil/seed0/fold3 done in 0.8 min | elapsed 0.16 h
+fold 4 ep   1 | train 1.217 | val loss 1.037 bacc 0.583 f1 0.624 | 3s *
+fold 4 ep   2 | train 0.845 | val loss 0.922 bacc 0.757 f1 0.745 | 3s *
+fold 4 ep   3 | train 0.694 | val loss 0.789 bacc 0.756 f1 0.777 | 3s *
+fold 4 ep   4 | train 0.572 | val loss 0.802 bacc 0.662 f1 0.682 | 3s
+fold 4 ep   5 | train 0.467 | val loss 0.860 bacc 0.657 f1 0.691 | 3s
+fold 4 ep   6 | train 0.425 | val loss 0.762 bacc 0.747 f1 0.751 | 3s *
+fold 4 ep   7 | train 0.382 | val loss 0.766 bacc 0.733 f1 0.738 | 3s
+fold 4 ep   8 | train 0.324 | val loss 0.798 bacc 0.692 f1 0.703 | 3s
+fold 4 ep   9 | train 0.294 | val loss 0.835 bacc 0.772 f1 0.759 | 3s
+fold 4 ep  10 | train 0.279 | val loss 0.787 bacc 0.764 f1 0.771 | 3s
+fold 4 ep  11 | train 0.257 | val loss 0.841 bacc 0.768 f1 0.772 | 3s
+fold 4 ep  12 | train 0.237 | val loss 0.930 bacc 0.771 f1 0.764 | 3s
+fold 4 ep  13 | train 0.266 | val loss 0.833 bacc 0.784 f1 0.783 | 3s
+fold 4 ep  14 | train 0.220 | val loss 1.052 bacc 0.754 f1 0.732 | 3s
+fold 4 ep  15 | train 0.207 | val loss 1.048 bacc 0.751 f1 0.736 | 3s
+fold 4 ep  16 | train 0.196 | val loss 0.951 bacc 0.766 f1 0.771 | 3s
+fold 4 ep  17 | train 0.180 | val loss 1.043 bacc 0.785 f1 0.771 | 3s
+fold 4 ep  18 | train 0.171 | val loss 1.036 bacc 0.732 f1 0.726 | 3s
+fold 4 ep  19 | train 0.164 | val loss 1.025 bacc 0.781 f1 0.774 | 3s
+fold 4 done: best epoch 6, val bacc 0.747
+== [19/60] phikon_v2/dsmil/seed0/fold4 done in 0.8 min | elapsed 0.17 h
+fold 5 ep   1 | train 1.217 | val loss 0.951 bacc 0.615 f1 0.606 | 3s *
+fold 5 ep   2 | train 0.842 | val loss 1.026 bacc 0.678 f1 0.693 | 3s
+fold 5 ep   3 | train 0.677 | val loss 0.763 bacc 0.765 f1 0.765 | 3s *
+fold 5 ep   4 | train 0.566 | val loss 0.730 bacc 0.753 f1 0.786 | 3s *
+fold 5 ep   5 | train 0.476 | val loss 0.750 bacc 0.778 f1 0.807 | 3s
+fold 5 ep   6 | train 0.438 | val loss 0.796 bacc 0.669 f1 0.717 | 3s
+fold 5 ep   7 | train 0.375 | val loss 0.934 bacc 0.744 f1 0.755 | 3s
+fold 5 ep   8 | train 0.329 | val loss 0.727 bacc 0.777 f1 0.806 | 3s *
+fold 5 ep   9 | train 0.313 | val loss 0.686 bacc 0.801 f1 0.818 | 3s *
+fold 5 ep  10 | train 0.279 | val loss 0.762 bacc 0.791 f1 0.819 | 3s
+fold 5 ep  11 | train 0.261 | val loss 0.804 bacc 0.806 f1 0.828 | 3s
+fold 5 ep  12 | train 0.256 | val loss 0.814 bacc 0.774 f1 0.780 | 3s
+fold 5 ep  13 | train 0.233 | val loss 0.828 bacc 0.791 f1 0.815 | 3s
+fold 5 ep  14 | train 0.209 | val loss 0.791 bacc 0.796 f1 0.818 | 3s
+fold 5 ep  15 | train 0.197 | val loss 0.819 bacc 0.801 f1 0.827 | 3s
+fold 5 ep  16 | train 0.187 | val loss 0.876 bacc 0.801 f1 0.827 | 3s
+fold 5 ep  17 | train 0.179 | val loss 0.857 bacc 0.801 f1 0.827 | 3s
+fold 5 ep  18 | train 0.171 | val loss 0.853 bacc 0.796 f1 0.820 | 3s
+fold 5 ep  19 | train 0.166 | val loss 0.890 bacc 0.773 f1 0.805 | 3s
+fold 5 done: best epoch 9, val bacc 0.801
+== [20/60] phikon_v2/dsmil/seed0/fold5 done in 0.8 min | elapsed 0.19 h
+fold 1 ep   1 | train 0.873 | val loss 0.516 bacc 0.759 f1 0.762 | 3s *
+fold 1 ep   2 | train 0.479 | val loss 0.415 bacc 0.684 f1 0.707 | 3s *
+fold 1 ep   3 | train 0.337 | val loss 0.336 bacc 0.741 f1 0.779 | 3s *
+fold 1 ep   4 | train 0.274 | val loss 0.289 bacc 0.825 f1 0.860 | 3s *
+fold 1 ep   5 | train 0.232 | val loss 0.396 bacc 0.810 f1 0.808 | 3s
+fold 1 ep   6 | train 0.171 | val loss 0.605 bacc 0.775 f1 0.732 | 3s
+fold 1 ep   7 | train 0.178 | val loss 0.293 bacc 0.821 f1 0.840 | 3s
+fold 1 ep   8 | train 0.129 | val loss 0.310 bacc 0.777 f1 0.800 | 3s
+fold 1 ep   9 | train 0.107 | val loss 0.518 bacc 0.816 f1 0.749 | 3s
+fold 1 ep  10 | train 0.087 | val loss 0.325 bacc 0.812 f1 0.815 | 3s
+fold 1 ep  11 | train 0.071 | val loss 0.347 bacc 0.842 f1 0.824 | 3s
+fold 1 ep  12 | train 0.067 | val loss 0.325 bacc 0.828 f1 0.812 | 3s
+fold 1 ep  13 | train 0.049 | val loss 0.533 bacc 0.753 f1 0.742 | 3s
+fold 1 ep  14 | train 0.034 | val loss 0.363 bacc 0.822 f1 0.821 | 3s
+fold 1 ep  15 | train 0.033 | val loss 0.460 bacc 0.832 f1 0.831 | 3s
+fold 1 ep  16 | train 0.025 | val loss 0.403 bacc 0.805 f1 0.804 | 3s
+fold 1 ep  17 | train 0.023 | val loss 0.417 bacc 0.817 f1 0.796 | 3s
+fold 1 ep  18 | train 0.016 | val loss 0.488 bacc 0.823 f1 0.819 | 3s
+fold 1 ep  19 | train 0.012 | val loss 0.508 bacc 0.841 f1 0.808 | 3s
+fold 1 done: best epoch 4, val bacc 0.825
+== [21/60] phikon_v2/clam_sb/seed0/fold1 done in 0.9 min | elapsed 0.20 h
+fold 2 ep   1 | train 0.881 | val loss 0.515 bacc 0.679 f1 0.643 | 3s *
+fold 2 ep   2 | train 0.444 | val loss 0.465 bacc 0.772 f1 0.792 | 3s *
+fold 2 ep   3 | train 0.335 | val loss 0.373 bacc 0.773 f1 0.790 | 3s *
+fold 2 ep   4 | train 0.252 | val loss 0.414 bacc 0.780 f1 0.790 | 3s
+fold 2 ep   5 | train 0.197 | val loss 0.481 bacc 0.772 f1 0.772 | 3s
+fold 2 ep   6 | train 0.159 | val loss 0.511 bacc 0.750 f1 0.734 | 3s
+fold 2 ep   7 | train 0.132 | val loss 0.566 bacc 0.829 f1 0.813 | 3s
+fold 2 ep   8 | train 0.120 | val loss 0.436 bacc 0.845 f1 0.829 | 3s
+fold 2 ep   9 | train 0.088 | val loss 0.551 bacc 0.794 f1 0.807 | 3s
+fold 2 ep  10 | train 0.088 | val loss 0.587 bacc 0.786 f1 0.769 | 3s
+fold 2 ep  11 | train 0.079 | val loss 0.612 bacc 0.823 f1 0.804 | 3s
+fold 2 ep  12 | train 0.053 | val loss 0.603 bacc 0.762 f1 0.752 | 3s
+fold 2 ep  13 | train 0.060 | val loss 0.589 bacc 0.838 f1 0.821 | 3s
+fold 2 ep  14 | train 0.031 | val loss 0.613 bacc 0.794 f1 0.800 | 3s
+fold 2 ep  15 | train 0.033 | val loss 0.585 bacc 0.798 f1 0.788 | 3s
+fold 2 ep  16 | train 0.027 | val loss 0.593 bacc 0.803 f1 0.804 | 3s
+fold 2 ep  17 | train 0.032 | val loss 0.666 bacc 0.788 f1 0.793 | 3s
+fold 2 ep  18 | train 0.054 | val loss 0.694 bacc 0.767 f1 0.745 | 3s
+fold 2 ep  19 | train 0.098 | val loss 0.641 bacc 0.812 f1 0.786 | 3s
+fold 2 done: best epoch 3, val bacc 0.773
+== [22/60] phikon_v2/clam_sb/seed0/fold2 done in 0.9 min | elapsed 0.22 h
+fold 3 ep   1 | train 0.845 | val loss 0.554 bacc 0.686 f1 0.710 | 3s *
+fold 3 ep   2 | train 0.434 | val loss 0.572 bacc 0.683 f1 0.730 | 3s
+fold 3 ep   3 | train 0.326 | val loss 0.470 bacc 0.764 f1 0.796 | 3s *
+fold 3 ep   4 | train 0.243 | val loss 0.487 bacc 0.735 f1 0.747 | 3s
+fold 3 ep   5 | train 0.204 | val loss 0.509 bacc 0.764 f1 0.801 | 3s
+fold 3 ep   6 | train 0.148 | val loss 0.640 bacc 0.710 f1 0.758 | 3s
+fold 3 ep   7 | train 0.130 | val loss 0.513 bacc 0.737 f1 0.771 | 3s
+fold 3 ep   8 | train 0.125 | val loss 0.764 bacc 0.656 f1 0.689 | 3s
+fold 3 ep   9 | train 0.102 | val loss 0.681 bacc 0.714 f1 0.766 | 3s
+fold 3 ep  10 | train 0.076 | val loss 0.648 bacc 0.762 f1 0.770 | 3s
+fold 3 ep  11 | train 0.053 | val loss 0.859 bacc 0.708 f1 0.760 | 3s
+fold 3 ep  12 | train 0.042 | val loss 0.789 bacc 0.737 f1 0.780 | 3s
+fold 3 ep  13 | train 0.069 | val loss 0.851 bacc 0.785 f1 0.791 | 3s
+fold 3 ep  14 | train 0.091 | val loss 0.743 bacc 0.755 f1 0.778 | 3s
+fold 3 ep  15 | train 0.046 | val loss 0.820 bacc 0.742 f1 0.771 | 3s
+fold 3 ep  16 | train 0.026 | val loss 0.857 bacc 0.720 f1 0.728 | 3s
+fold 3 ep  17 | train 0.024 | val loss 0.898 bacc 0.721 f1 0.756 | 3s
+fold 3 ep  18 | train 0.019 | val loss 1.079 bacc 0.723 f1 0.768 | 3s
+fold 3 ep  19 | train 0.019 | val loss 1.017 bacc 0.721 f1 0.756 | 3s
+fold 3 done: best epoch 3, val bacc 0.764
+== [23/60] phikon_v2/clam_sb/seed0/fold3 done in 0.9 min | elapsed 0.23 h
+fold 4 ep   1 | train 0.843 | val loss 0.604 bacc 0.545 f1 0.570 | 3s *
+fold 4 ep   2 | train 0.426 | val loss 0.447 bacc 0.785 f1 0.786 | 3s *
+fold 4 ep   3 | train 0.321 | val loss 0.425 bacc 0.783 f1 0.778 | 3s *
+fold 4 ep   4 | train 0.247 | val loss 0.438 bacc 0.700 f1 0.720 | 3s
+fold 4 ep   5 | train 0.191 | val loss 0.401 bacc 0.778 f1 0.803 | 3s *
+fold 4 ep   6 | train 0.177 | val loss 0.441 bacc 0.750 f1 0.777 | 3s
+fold 4 ep   7 | train 0.124 | val loss 0.503 bacc 0.676 f1 0.667 | 3s
+fold 4 ep   8 | train 0.109 | val loss 0.515 bacc 0.719 f1 0.717 | 3s
+fold 4 ep   9 | train 0.077 | val loss 0.579 bacc 0.705 f1 0.711 | 3s
+fold 4 ep  10 | train 0.069 | val loss 0.581 bacc 0.730 f1 0.743 | 3s
+fold 4 ep  11 | train 0.038 | val loss 0.634 bacc 0.703 f1 0.713 | 3s
+fold 4 ep  12 | train 0.036 | val loss 0.717 bacc 0.673 f1 0.660 | 3s
+fold 4 ep  13 | train 0.097 | val loss 0.645 bacc 0.665 f1 0.691 | 3s
+fold 4 ep  14 | train 0.065 | val loss 0.795 bacc 0.686 f1 0.672 | 3s
+fold 4 ep  15 | train 0.035 | val loss 0.710 bacc 0.704 f1 0.709 | 3s
+fold 4 ep  16 | train 0.022 | val loss 0.729 bacc 0.739 f1 0.743 | 3s
+fold 4 ep  17 | train 0.017 | val loss 0.857 bacc 0.673 f1 0.699 | 3s
+fold 4 ep  18 | train 0.017 | val loss 0.826 bacc 0.691 f1 0.694 | 3s
+fold 4 ep  19 | train 0.014 | val loss 0.830 bacc 0.704 f1 0.709 | 3s
+fold 4 done: best epoch 5, val bacc 0.778
+== [24/60] phikon_v2/clam_sb/seed0/fold4 done in 0.9 min | elapsed 0.25 h
+fold 5 ep   1 | train 0.852 | val loss 0.543 bacc 0.616 f1 0.611 | 3s *
+fold 5 ep   2 | train 0.439 | val loss 0.583 bacc 0.730 f1 0.749 | 3s
+fold 5 ep   3 | train 0.318 | val loss 0.436 bacc 0.805 f1 0.791 | 3s *
+fold 5 ep   4 | train 0.255 | val loss 0.474 bacc 0.789 f1 0.793 | 3s
+fold 5 ep   5 | train 0.208 | val loss 0.490 bacc 0.786 f1 0.805 | 3s
+fold 5 ep   6 | train 0.173 | val loss 0.600 bacc 0.790 f1 0.807 | 3s
+fold 5 ep   7 | train 0.146 | val loss 0.635 bacc 0.755 f1 0.773 | 3s
+fold 5 ep   8 | train 0.125 | val loss 0.446 bacc 0.835 f1 0.835 | 3s
+fold 5 ep   9 | train 0.087 | val loss 0.590 bacc 0.842 f1 0.842 | 3s
+fold 5 ep  10 | train 0.070 | val loss 0.547 bacc 0.866 f1 0.862 | 3s
+fold 5 ep  11 | train 0.072 | val loss 0.652 bacc 0.836 f1 0.830 | 3s
+fold 5 ep  12 | train 0.076 | val loss 0.623 bacc 0.783 f1 0.788 | 3s
+fold 5 ep  13 | train 0.116 | val loss 0.519 bacc 0.795 f1 0.802 | 3s
+fold 5 ep  14 | train 0.083 | val loss 0.566 bacc 0.835 f1 0.832 | 3s
+fold 5 ep  15 | train 0.049 | val loss 0.608 bacc 0.860 f1 0.851 | 3s
+fold 5 ep  16 | train 0.033 | val loss 0.624 bacc 0.864 f1 0.832 | 3s
+fold 5 ep  17 | train 0.026 | val loss 0.639 bacc 0.841 f1 0.843 | 3s
+fold 5 ep  18 | train 0.021 | val loss 0.626 bacc 0.860 f1 0.854 | 3s
+fold 5 ep  19 | train 0.019 | val loss 0.680 bacc 0.866 f1 0.862 | 3s
+fold 5 done: best epoch 3, val bacc 0.805
+== [25/60] phikon_v2/clam_sb/seed0/fold5 done in 0.9 min | elapsed 0.26 h
+fold 1 ep   1 | train 1.195 | val loss 0.644 bacc 0.594 f1 0.625 | 22s *
+fold 1 ep   2 | train 0.647 | val loss 0.671 bacc 0.659 f1 0.626 | 22s
+fold 1 ep   3 | train 0.432 | val loss 0.676 bacc 0.567 f1 0.574 | 23s
+fold 1 ep   4 | train 0.352 | val loss 0.791 bacc 0.600 f1 0.641 | 22s
+fold 1 ep   5 | train 0.279 | val loss 0.642 bacc 0.766 f1 0.766 | 22s *
+fold 1 ep   6 | train 0.086 | val loss 0.852 bacc 0.754 f1 0.692 | 22s
+fold 1 ep   7 | train 0.075 | val loss 0.613 bacc 0.835 f1 0.850 | 22s *
+fold 1 ep   8 | train 0.018 | val loss 0.673 bacc 0.819 f1 0.843 | 22s
+fold 1 ep   9 | train 0.117 | val loss 1.041 bacc 0.714 f1 0.665 | 22s
+fold 1 ep  10 | train 0.402 | val loss 0.889 bacc 0.712 f1 0.708 | 22s
+fold 1 ep  11 | train 0.179 | val loss 0.705 bacc 0.711 f1 0.733 | 22s
+fold 1 ep  12 | train 0.069 | val loss 0.771 bacc 0.785 f1 0.797 | 22s
+fold 1 ep  13 | train 0.049 | val loss 0.649 bacc 0.739 f1 0.768 | 22s
+fold 1 ep  14 | train 0.160 | val loss 1.193 bacc 0.545 f1 0.573 | 22s
+fold 1 ep  15 | train 0.144 | val loss 0.966 bacc 0.646 f1 0.653 | 22s
+fold 1 ep  16 | train 0.085 | val loss 0.988 bacc 0.726 f1 0.685 | 22s
+fold 1 ep  17 | train 0.018 | val loss 0.863 bacc 0.772 f1 0.774 | 22s
+fold 1 ep  18 | train 0.016 | val loss 0.887 bacc 0.744 f1 0.743 | 22s
+fold 1 ep  19 | train 0.002 | val loss 0.880 bacc 0.770 f1 0.787 | 22s
+fold 1 done: best epoch 7, val bacc 0.835
+== [26/60] phikon_v2/transmil/seed0/fold1 done in 7.2 min | elapsed 0.38 h
+fold 2 ep   1 | train 1.173 | val loss 1.583 bacc 0.548 f1 0.409 | 22s *
+fold 2 ep   2 | train 0.588 | val loss 0.920 bacc 0.680 f1 0.711 | 22s *
+fold 2 ep   3 | train 0.468 | val loss 0.560 bacc 0.742 f1 0.769 | 22s *
+fold 2 ep   4 | train 0.276 | val loss 0.579 bacc 0.799 f1 0.814 | 22s
+fold 2 ep   5 | train 0.196 | val loss 1.029 bacc 0.742 f1 0.753 | 22s
+fold 2 ep   6 | train 0.216 | val loss 0.953 bacc 0.703 f1 0.685 | 22s
+fold 2 ep   7 | train 0.163 | val loss 0.971 bacc 0.782 f1 0.750 | 22s
+fold 2 ep   8 | train 0.169 | val loss 0.640 bacc 0.795 f1 0.792 | 22s
+fold 2 ep   9 | train 0.046 | val loss 0.885 bacc 0.792 f1 0.786 | 22s
+fold 2 ep  10 | train 0.008 | val loss 1.147 bacc 0.780 f1 0.770 | 22s
+fold 2 ep  11 | train 0.027 | val loss 1.352 bacc 0.812 f1 0.795 | 22s
+fold 2 ep  12 | train 0.376 | val loss 0.697 bacc 0.717 f1 0.740 | 22s
+fold 2 ep  13 | train 0.107 | val loss 1.332 bacc 0.767 f1 0.710 | 22s
+fold 2 ep  14 | train 0.052 | val loss 1.196 bacc 0.747 f1 0.749 | 22s
+fold 2 ep  15 | train 0.115 | val loss 1.099 bacc 0.734 f1 0.721 | 22s
+fold 2 ep  16 | train 0.090 | val loss 1.103 bacc 0.757 f1 0.746 | 22s
+fold 2 ep  17 | train 0.012 | val loss 0.923 bacc 0.789 f1 0.767 | 22s
+fold 2 ep  18 | train 0.003 | val loss 0.924 bacc 0.800 f1 0.784 | 22s
+fold 2 ep  19 | train 0.002 | val loss 0.946 bacc 0.805 f1 0.791 | 22s
+fold 2 done: best epoch 3, val bacc 0.742
+== [27/60] phikon_v2/transmil/seed0/fold2 done in 7.1 min | elapsed 0.50 h
+fold 3 ep   1 | train 1.153 | val loss 0.889 bacc 0.667 f1 0.665 | 22s *
+fold 3 ep   2 | train 0.648 | val loss 1.221 bacc 0.534 f1 0.543 | 22s
+fold 3 ep   3 | train 0.478 | val loss 0.768 bacc 0.694 f1 0.714 | 22s *
+fold 3 ep   4 | train 0.324 | val loss 0.924 bacc 0.756 f1 0.746 | 22s
+fold 3 ep   5 | train 0.236 | val loss 0.785 bacc 0.714 f1 0.743 | 23s
+fold 3 ep   6 | train 0.250 | val loss 0.927 bacc 0.687 f1 0.727 | 23s
+fold 3 ep   7 | train 0.150 | val loss 0.888 bacc 0.724 f1 0.750 | 23s
+fold 3 ep   8 | train 0.118 | val loss 1.255 bacc 0.688 f1 0.674 | 23s
+fold 3 ep   9 | train 0.124 | val loss 1.443 bacc 0.652 f1 0.692 | 23s
+fold 3 ep  10 | train 0.128 | val loss 1.226 bacc 0.794 f1 0.737 | 23s
+fold 3 ep  11 | train 0.038 | val loss 1.177 bacc 0.687 f1 0.715 | 23s
+fold 3 ep  12 | train 0.102 | val loss 1.013 bacc 0.709 f1 0.708 | 23s
+fold 3 ep  13 | train 0.009 | val loss 1.298 bacc 0.658 f1 0.680 | 23s
+fold 3 ep  14 | train 0.151 | val loss 1.191 bacc 0.695 f1 0.728 | 23s
+fold 3 ep  15 | train 0.170 | val loss 1.133 bacc 0.668 f1 0.663 | 23s
+fold 3 ep  16 | train 0.109 | val loss 1.411 bacc 0.725 f1 0.731 | 23s
+fold 3 ep  17 | train 0.058 | val loss 1.655 bacc 0.635 f1 0.595 | 23s
+fold 3 ep  18 | train 0.046 | val loss 1.587 bacc 0.700 f1 0.705 | 23s
+fold 3 ep  19 | train 0.052 | val loss 1.414 bacc 0.723 f1 0.746 | 23s
+fold 3 done: best epoch 3, val bacc 0.694
+== [28/60] phikon_v2/transmil/seed0/fold3 done in 7.2 min | elapsed 0.62 h
+fold 4 ep   1 | train 1.159 | val loss 1.284 bacc 0.485 f1 0.468 | 23s *
+fold 4 ep   2 | train 0.649 | val loss 1.006 bacc 0.623 f1 0.582 | 23s *
+fold 4 ep   3 | train 0.451 | val loss 0.710 bacc 0.776 f1 0.751 | 23s *
+fold 4 ep   4 | train 0.283 | val loss 0.867 bacc 0.680 f1 0.685 | 23s
+fold 4 ep   5 | train 0.164 | val loss 0.812 bacc 0.703 f1 0.715 | 23s
+fold 4 ep   6 | train 0.178 | val loss 0.800 bacc 0.783 f1 0.747 | 23s
+fold 4 ep   7 | train 0.109 | val loss 1.160 bacc 0.646 f1 0.643 | 23s
+fold 4 ep   8 | train 0.051 | val loss 1.281 bacc 0.642 f1 0.630 | 23s
+fold 4 ep   9 | train 0.024 | val loss 1.349 bacc 0.778 f1 0.749 | 23s
+fold 4 ep  10 | train 0.172 | val loss 1.171 bacc 0.708 f1 0.695 | 23s
+fold 4 ep  11 | train 0.283 | val loss 0.925 bacc 0.707 f1 0.699 | 23s
+fold 4 ep  12 | train 0.082 | val loss 1.257 bacc 0.612 f1 0.611 | 23s
+fold 4 ep  13 | train 0.072 | val loss 0.946 bacc 0.766 f1 0.735 | 23s
+fold 4 ep  14 | train 0.073 | val loss 1.029 bacc 0.709 f1 0.699 | 23s
+fold 4 ep  15 | train 0.061 | val loss 1.842 bacc 0.658 f1 0.639 | 23s
+fold 4 ep  16 | train 0.081 | val loss 1.318 bacc 0.633 f1 0.660 | 23s
+fold 4 ep  17 | train 0.080 | val loss 1.148 bacc 0.754 f1 0.726 | 23s
+fold 4 ep  18 | train 0.082 | val loss 1.504 bacc 0.670 f1 0.681 | 23s
+fold 4 ep  19 | train 0.014 | val loss 1.429 bacc 0.696 f1 0.710 | 23s
+fold 4 done: best epoch 3, val bacc 0.776
+== [29/60] phikon_v2/transmil/seed0/fold4 done in 7.2 min | elapsed 0.74 h
+fold 5 ep   1 | train 1.084 | val loss 0.685 bacc 0.589 f1 0.597 | 23s *
+fold 5 ep   2 | train 0.614 | val loss 1.295 bacc 0.598 f1 0.563 | 23s
+fold 5 ep   3 | train 0.437 | val loss 0.737 bacc 0.772 f1 0.748 | 23s
+fold 5 ep   4 | train 0.256 | val loss 1.094 bacc 0.670 f1 0.707 | 23s
+fold 5 ep   5 | train 0.192 | val loss 1.092 bacc 0.716 f1 0.773 | 23s
+fold 5 ep   6 | train 0.235 | val loss 0.965 bacc 0.799 f1 0.823 | 23s
+fold 5 ep   7 | train 0.108 | val loss 1.222 bacc 0.714 f1 0.745 | 23s
+fold 5 ep   8 | train 0.108 | val loss 1.250 bacc 0.612 f1 0.658 | 23s
+fold 5 ep   9 | train 0.118 | val loss 1.746 bacc 0.496 f1 0.541 | 23s
+fold 5 ep  10 | train 0.191 | val loss 0.945 bacc 0.766 f1 0.794 | 23s
+fold 5 ep  11 | train 0.031 | val loss 1.237 bacc 0.674 f1 0.713 | 23s
+fold 5 ep  12 | train 0.042 | val loss 1.595 bacc 0.605 f1 0.627 | 23s
+fold 5 ep  13 | train 0.152 | val loss 1.224 bacc 0.691 f1 0.734 | 23s
+fold 5 ep  14 | train 0.039 | val loss 1.283 bacc 0.735 f1 0.772 | 23s
+fold 5 ep  15 | train 0.050 | val loss 1.935 bacc 0.556 f1 0.567 | 23s
+fold 5 ep  16 | train 0.188 | val loss 0.920 bacc 0.770 f1 0.790 | 23s
+fold 5 ep  17 | train 0.033 | val loss 1.320 bacc 0.656 f1 0.693 | 23s
+fold 5 ep  18 | train 0.128 | val loss 1.326 bacc 0.617 f1 0.657 | 23s
+fold 5 ep  19 | train 0.046 | val loss 1.167 bacc 0.789 f1 0.784 | 23s
+fold 5 done: best epoch 1, val bacc 0.589
+== [30/60] phikon_v2/transmil/seed0/fold5 done in 7.2 min | elapsed 0.86 h
+[vits16_lunit] loaded 538 bags (1.16 GB) to cuda:0 in 64s
+fold 1 ep   1 | train 1.122 | val loss 0.702 bacc 0.582 f1 0.562 | 1s *
+fold 1 ep   2 | train 0.629 | val loss 0.589 bacc 0.631 f1 0.623 | 1s *
+fold 1 ep   3 | train 0.451 | val loss 0.526 bacc 0.648 f1 0.687 | 1s *
+fold 1 ep   4 | train 0.405 | val loss 0.364 bacc 0.854 f1 0.887 | 1s *
+fold 1 ep   5 | train 0.326 | val loss 0.426 bacc 0.815 f1 0.823 | 1s
+fold 1 ep   6 | train 0.290 | val loss 0.553 bacc 0.771 f1 0.713 | 1s
+fold 1 ep   7 | train 0.235 | val loss 0.301 bacc 0.859 f1 0.881 | 1s *
+fold 1 ep   8 | train 0.211 | val loss 0.462 bacc 0.694 f1 0.715 | 1s
+fold 1 ep   9 | train 0.165 | val loss 0.346 bacc 0.932 f1 0.889 | 1s
+fold 1 ep  10 | train 0.147 | val loss 0.304 bacc 0.886 f1 0.886 | 1s
+fold 1 ep  11 | train 0.128 | val loss 0.334 bacc 0.858 f1 0.858 | 1s
+fold 1 ep  12 | train 0.100 | val loss 0.401 bacc 0.795 f1 0.827 | 1s
+fold 1 ep  13 | train 0.083 | val loss 0.431 bacc 0.734 f1 0.751 | 1s
+fold 1 ep  14 | train 0.070 | val loss 0.336 bacc 0.792 f1 0.816 | 1s
+fold 1 ep  15 | train 0.073 | val loss 0.351 bacc 0.813 f1 0.832 | 1s
+fold 1 ep  16 | train 0.052 | val loss 0.319 bacc 0.905 f1 0.891 | 1s
+fold 1 ep  17 | train 0.046 | val loss 0.731 bacc 0.804 f1 0.793 | 1s
+fold 1 ep  18 | train 0.038 | val loss 0.336 bacc 0.896 f1 0.904 | 1s
+fold 1 ep  19 | train 0.073 | val loss 0.365 bacc 0.847 f1 0.864 | 1s
+fold 1 done: best epoch 7, val bacc 0.859
+== [31/60] vits16_lunit/maxpool/seed0/fold1 done in 0.3 min | elapsed 0.89 h
+fold 2 ep   1 | train 1.139 | val loss 0.892 bacc 0.662 f1 0.631 | 1s *
+fold 2 ep   2 | train 0.557 | val loss 0.770 bacc 0.615 f1 0.613 | 1s *
+fold 2 ep   3 | train 0.430 | val loss 0.490 bacc 0.729 f1 0.731 | 1s *
+fold 2 ep   4 | train 0.360 | val loss 0.498 bacc 0.786 f1 0.799 | 1s
+fold 2 ep   5 | train 0.278 | val loss 0.821 bacc 0.731 f1 0.749 | 1s
+fold 2 ep   6 | train 0.251 | val loss 0.418 bacc 0.825 f1 0.832 | 1s *
+fold 2 ep   7 | train 0.209 | val loss 0.711 bacc 0.801 f1 0.791 | 1s
+fold 2 ep   8 | train 0.192 | val loss 0.650 bacc 0.782 f1 0.788 | 1s
+fold 2 ep   9 | train 0.158 | val loss 0.633 bacc 0.782 f1 0.785 | 1s
+fold 2 ep  10 | train 0.147 | val loss 0.558 bacc 0.809 f1 0.821 | 1s
+fold 2 ep  11 | train 0.096 | val loss 0.643 bacc 0.791 f1 0.758 | 1s
+fold 2 ep  12 | train 0.091 | val loss 0.655 bacc 0.791 f1 0.810 | 1s
+fold 2 ep  13 | train 0.072 | val loss 0.736 bacc 0.818 f1 0.823 | 1s
+fold 2 ep  14 | train 0.066 | val loss 0.651 bacc 0.809 f1 0.827 | 1s
+fold 2 ep  15 | train 0.072 | val loss 0.545 bacc 0.808 f1 0.810 | 1s
+fold 2 ep  16 | train 0.033 | val loss 0.525 bacc 0.824 f1 0.829 | 1s
+fold 2 ep  17 | train 0.028 | val loss 0.540 bacc 0.814 f1 0.818 | 1s
+fold 2 ep  18 | train 0.036 | val loss 0.735 bacc 0.802 f1 0.799 | 1s
+fold 2 ep  19 | train 0.015 | val loss 0.659 bacc 0.819 f1 0.820 | 1s
+fold 2 done: best epoch 6, val bacc 0.825
+== [32/60] vits16_lunit/maxpool/seed0/fold2 done in 0.3 min | elapsed 0.89 h
+fold 3 ep   1 | train 1.056 | val loss 0.830 bacc 0.696 f1 0.709 | 1s *
+fold 3 ep   2 | train 0.557 | val loss 0.772 bacc 0.648 f1 0.654 | 1s *
+fold 3 ep   3 | train 0.433 | val loss 0.696 bacc 0.738 f1 0.713 | 1s *
+fold 3 ep   4 | train 0.333 | val loss 0.690 bacc 0.779 f1 0.755 | 1s *
+fold 3 ep   5 | train 0.318 | val loss 0.511 bacc 0.764 f1 0.770 | 1s *
+fold 3 ep   6 | train 0.260 | val loss 0.701 bacc 0.739 f1 0.748 | 1s
+fold 3 ep   7 | train 0.219 | val loss 0.584 bacc 0.789 f1 0.786 | 1s
+fold 3 ep   8 | train 0.209 | val loss 0.859 bacc 0.731 f1 0.663 | 1s
+fold 3 ep   9 | train 0.170 | val loss 0.837 bacc 0.625 f1 0.601 | 1s
+fold 3 ep  10 | train 0.128 | val loss 0.674 bacc 0.762 f1 0.759 | 1s
+fold 3 ep  11 | train 0.123 | val loss 0.754 bacc 0.752 f1 0.768 | 1s
+fold 3 ep  12 | train 0.085 | val loss 0.738 bacc 0.739 f1 0.757 | 1s
+fold 3 ep  13 | train 0.110 | val loss 0.939 bacc 0.754 f1 0.760 | 1s
+fold 3 ep  14 | train 0.069 | val loss 0.803 bacc 0.805 f1 0.806 | 1s
+fold 3 ep  15 | train 0.064 | val loss 0.747 bacc 0.734 f1 0.747 | 1s
+fold 3 ep  16 | train 0.037 | val loss 0.795 bacc 0.820 f1 0.798 | 1s
+fold 3 ep  17 | train 0.031 | val loss 0.823 bacc 0.787 f1 0.778 | 1s
+fold 3 ep  18 | train 0.027 | val loss 1.063 bacc 0.764 f1 0.777 | 1s
+fold 3 ep  19 | train 0.079 | val loss 1.280 bacc 0.654 f1 0.680 | 1s
+fold 3 done: best epoch 5, val bacc 0.764
+== [33/60] vits16_lunit/maxpool/seed0/fold3 done in 0.3 min | elapsed 0.90 h
+fold 4 ep   1 | train 1.096 | val loss 0.814 bacc 0.504 f1 0.493 | 1s *
+fold 4 ep   2 | train 0.576 | val loss 0.655 bacc 0.796 f1 0.783 | 1s *
+fold 4 ep   3 | train 0.428 | val loss 0.577 bacc 0.824 f1 0.786 | 1s *
+fold 4 ep   4 | train 0.354 | val loss 0.546 bacc 0.864 f1 0.834 | 1s *
+fold 4 ep   5 | train 0.279 | val loss 0.530 bacc 0.811 f1 0.810 | 1s *
+fold 4 ep   6 | train 0.253 | val loss 0.508 bacc 0.855 f1 0.831 | 1s *
+fold 4 ep   7 | train 0.206 | val loss 0.515 bacc 0.842 f1 0.831 | 1s
+fold 4 ep   8 | train 0.164 | val loss 0.556 bacc 0.809 f1 0.793 | 1s
+fold 4 ep   9 | train 0.128 | val loss 0.609 bacc 0.819 f1 0.793 | 1s
+fold 4 ep  10 | train 0.116 | val loss 0.570 bacc 0.816 f1 0.812 | 1s
+fold 4 ep  11 | train 0.093 | val loss 0.758 bacc 0.721 f1 0.689 | 1s
+fold 4 ep  12 | train 0.068 | val loss 0.605 bacc 0.852 f1 0.819 | 1s
+fold 4 ep  13 | train 0.060 | val loss 0.591 bacc 0.862 f1 0.834 | 1s
+fold 4 ep  14 | train 0.056 | val loss 0.754 bacc 0.808 f1 0.788 | 1s
+fold 4 ep  15 | train 0.032 | val loss 0.860 bacc 0.801 f1 0.776 | 1s
+fold 4 ep  16 | train 0.055 | val loss 0.643 bacc 0.827 f1 0.814 | 1s
+fold 4 ep  17 | train 0.040 | val loss 0.689 bacc 0.877 f1 0.850 | 1s
+fold 4 ep  18 | train 0.036 | val loss 0.720 bacc 0.807 f1 0.800 | 1s
+fold 4 ep  19 | train 0.021 | val loss 0.712 bacc 0.814 f1 0.823 | 1s
+fold 4 done: best epoch 6, val bacc 0.855
+== [34/60] vits16_lunit/maxpool/seed0/fold4 done in 0.3 min | elapsed 0.90 h
+fold 5 ep   1 | train 1.052 | val loss 0.750 bacc 0.632 f1 0.646 | 1s *
+fold 5 ep   2 | train 0.585 | val loss 0.935 bacc 0.619 f1 0.627 | 1s
+fold 5 ep   3 | train 0.458 | val loss 0.496 bacc 0.788 f1 0.793 | 1s *
+fold 5 ep   4 | train 0.332 | val loss 0.470 bacc 0.787 f1 0.813 | 1s *
+fold 5 ep   5 | train 0.302 | val loss 0.505 bacc 0.755 f1 0.786 | 1s
+fold 5 ep   6 | train 0.279 | val loss 0.523 bacc 0.757 f1 0.798 | 1s
+fold 5 ep   7 | train 0.206 | val loss 0.706 bacc 0.747 f1 0.749 | 1s
+fold 5 ep   8 | train 0.183 | val loss 0.500 bacc 0.788 f1 0.819 | 1s
+fold 5 ep   9 | train 0.164 | val loss 0.518 bacc 0.804 f1 0.833 | 1s
+fold 5 ep  10 | train 0.137 | val loss 0.606 bacc 0.767 f1 0.806 | 1s
+fold 5 ep  11 | train 0.121 | val loss 0.576 bacc 0.782 f1 0.806 | 1s
+fold 5 ep  12 | train 0.126 | val loss 0.540 bacc 0.797 f1 0.807 | 1s
+fold 5 ep  13 | train 0.095 | val loss 0.676 bacc 0.755 f1 0.788 | 1s
+fold 5 ep  14 | train 0.074 | val loss 0.585 bacc 0.778 f1 0.810 | 1s
+fold 5 ep  15 | train 0.078 | val loss 0.572 bacc 0.756 f1 0.772 | 1s
+fold 5 ep  16 | train 0.029 | val loss 0.600 bacc 0.796 f1 0.812 | 1s
+fold 5 ep  17 | train 0.046 | val loss 0.803 bacc 0.763 f1 0.803 | 1s
+fold 5 ep  18 | train 0.030 | val loss 0.807 bacc 0.781 f1 0.816 | 1s
+fold 5 ep  19 | train 0.027 | val loss 0.597 bacc 0.756 f1 0.783 | 1s
+fold 5 done: best epoch 4, val bacc 0.787
+== [35/60] vits16_lunit/maxpool/seed0/fold5 done in 0.3 min | elapsed 0.91 h
+fold 1 ep   1 | train 1.032 | val loss 0.605 bacc 0.655 f1 0.675 | 1s *
+fold 1 ep   2 | train 0.641 | val loss 0.526 bacc 0.729 f1 0.743 | 1s *
+fold 1 ep   3 | train 0.504 | val loss 0.583 bacc 0.600 f1 0.652 | 1s
+fold 1 ep   4 | train 0.469 | val loss 0.408 bacc 0.776 f1 0.813 | 1s *
+fold 1 ep   5 | train 0.394 | val loss 0.448 bacc 0.821 f1 0.832 | 1s
+fold 1 ep   6 | train 0.362 | val loss 0.583 bacc 0.816 f1 0.758 | 1s
+fold 1 ep   7 | train 0.318 | val loss 0.392 bacc 0.770 f1 0.807 | 1s *
+fold 1 ep   8 | train 0.294 | val loss 0.453 bacc 0.740 f1 0.785 | 1s
+fold 1 ep   9 | train 0.245 | val loss 0.429 bacc 0.813 f1 0.802 | 1s
+fold 1 ep  10 | train 0.223 | val loss 0.439 bacc 0.827 f1 0.815 | 1s
+fold 1 ep  11 | train 0.233 | val loss 0.369 bacc 0.817 f1 0.861 | 1s *
+fold 1 ep  12 | train 0.167 | val loss 0.489 bacc 0.767 f1 0.805 | 1s
+fold 1 ep  13 | train 0.181 | val loss 0.442 bacc 0.789 f1 0.811 | 1s
+fold 1 ep  14 | train 0.144 | val loss 0.410 bacc 0.840 f1 0.863 | 1s
+fold 1 ep  15 | train 0.126 | val loss 0.441 bacc 0.818 f1 0.832 | 1s
+fold 1 ep  16 | train 0.120 | val loss 0.440 bacc 0.802 f1 0.796 | 1s
+fold 1 ep  17 | train 0.102 | val loss 0.524 bacc 0.802 f1 0.776 | 1s
+fold 1 ep  18 | train 0.062 | val loss 0.828 bacc 0.726 f1 0.750 | 1s
+fold 1 ep  19 | train 0.106 | val loss 0.497 bacc 0.823 f1 0.837 | 1s
+fold 1 ep  20 | train 0.045 | val loss 0.580 bacc 0.841 f1 0.834 | 1s
+fold 1 ep  21 | train 0.048 | val loss 0.592 bacc 0.811 f1 0.811 | 1s
+fold 1 done: best epoch 11, val bacc 0.817
+== [36/60] vits16_lunit/meanpool/seed0/fold1 done in 0.3 min | elapsed 0.91 h
+fold 2 ep   1 | train 1.048 | val loss 0.695 bacc 0.769 f1 0.776 | 1s *
+fold 2 ep   2 | train 0.593 | val loss 0.641 bacc 0.745 f1 0.769 | 1s *
+fold 2 ep   3 | train 0.469 | val loss 0.536 bacc 0.775 f1 0.806 | 1s *
+fold 2 ep   4 | train 0.407 | val loss 0.541 bacc 0.814 f1 0.842 | 1s
+fold 2 ep   5 | train 0.334 | val loss 0.732 bacc 0.818 f1 0.823 | 1s
+fold 2 ep   6 | train 0.303 | val loss 0.585 bacc 0.772 f1 0.766 | 1s
+fold 2 ep   7 | train 0.276 | val loss 0.784 bacc 0.786 f1 0.752 | 1s
+fold 2 ep   8 | train 0.262 | val loss 0.715 bacc 0.796 f1 0.772 | 1s
+fold 2 ep   9 | train 0.240 | val loss 0.703 bacc 0.802 f1 0.785 | 1s
+fold 2 ep  10 | train 0.233 | val loss 0.599 bacc 0.801 f1 0.801 | 1s
+fold 2 ep  11 | train 0.174 | val loss 0.879 bacc 0.741 f1 0.691 | 1s
+fold 2 ep  12 | train 0.175 | val loss 0.707 bacc 0.813 f1 0.808 | 1s
+fold 2 ep  13 | train 0.178 | val loss 0.726 bacc 0.824 f1 0.829 | 1s
+fold 2 ep  14 | train 0.130 | val loss 0.740 bacc 0.800 f1 0.796 | 1s
+fold 2 ep  15 | train 0.147 | val loss 0.653 bacc 0.835 f1 0.829 | 1s
+fold 2 ep  16 | train 0.105 | val loss 0.823 bacc 0.789 f1 0.754 | 1s
+fold 2 ep  17 | train 0.111 | val loss 0.769 bacc 0.792 f1 0.766 | 1s
+fold 2 ep  18 | train 0.096 | val loss 0.975 bacc 0.786 f1 0.749 | 1s
+fold 2 ep  19 | train 0.086 | val loss 0.932 bacc 0.818 f1 0.805 | 1s
+fold 2 done: best epoch 3, val bacc 0.775
+== [37/60] vits16_lunit/meanpool/seed0/fold2 done in 0.3 min | elapsed 0.92 h
+fold 3 ep   1 | train 1.004 | val loss 0.729 bacc 0.686 f1 0.711 | 1s *
+fold 3 ep   2 | train 0.590 | val loss 0.729 bacc 0.642 f1 0.679 | 1s
+fold 3 ep   3 | train 0.486 | val loss 0.617 bacc 0.767 f1 0.801 | 1s *
+fold 3 ep   4 | train 0.394 | val loss 0.653 bacc 0.800 f1 0.789 | 1s
+fold 3 ep   5 | train 0.359 | val loss 0.553 bacc 0.804 f1 0.818 | 1s *
+fold 3 ep   6 | train 0.317 | val loss 0.679 bacc 0.681 f1 0.708 | 1s
+fold 3 ep   7 | train 0.295 | val loss 0.563 bacc 0.863 f1 0.861 | 1s
+fold 3 ep   8 | train 0.256 | val loss 0.653 bacc 0.731 f1 0.761 | 1s
+fold 3 ep   9 | train 0.235 | val loss 0.802 bacc 0.667 f1 0.686 | 1s
+fold 3 ep  10 | train 0.215 | val loss 0.724 bacc 0.741 f1 0.771 | 1s
+fold 3 ep  11 | train 0.174 | val loss 0.812 bacc 0.668 f1 0.699 | 1s
+fold 3 ep  12 | train 0.171 | val loss 0.789 bacc 0.709 f1 0.732 | 1s
+fold 3 ep  13 | train 0.166 | val loss 0.785 bacc 0.770 f1 0.775 | 1s
+fold 3 ep  14 | train 0.132 | val loss 0.828 bacc 0.738 f1 0.766 | 1s
+fold 3 ep  15 | train 0.134 | val loss 0.831 bacc 0.797 f1 0.809 | 1s
+fold 3 ep  16 | train 0.088 | val loss 0.964 bacc 0.816 f1 0.767 | 1s
+fold 3 ep  17 | train 0.095 | val loss 0.808 bacc 0.793 f1 0.777 | 1s
+fold 3 ep  18 | train 0.080 | val loss 1.206 bacc 0.678 f1 0.705 | 1s
+fold 3 ep  19 | train 0.069 | val loss 1.098 bacc 0.674 f1 0.718 | 1s
+fold 3 done: best epoch 5, val bacc 0.804
+== [38/60] vits16_lunit/meanpool/seed0/fold3 done in 0.3 min | elapsed 0.92 h
+fold 4 ep   1 | train 1.002 | val loss 0.731 bacc 0.600 f1 0.656 | 1s *
+fold 4 ep   2 | train 0.581 | val loss 0.658 bacc 0.780 f1 0.770 | 1s *
+fold 4 ep   3 | train 0.489 | val loss 0.559 bacc 0.766 f1 0.767 | 1s *
+fold 4 ep   4 | train 0.412 | val loss 0.576 bacc 0.811 f1 0.802 | 1s
+fold 4 ep   5 | train 0.333 | val loss 0.679 bacc 0.815 f1 0.807 | 1s
+fold 4 ep   6 | train 0.338 | val loss 0.553 bacc 0.802 f1 0.803 | 1s *
+fold 4 ep   7 | train 0.259 | val loss 0.600 bacc 0.784 f1 0.772 | 1s
+fold 4 ep   8 | train 0.239 | val loss 0.676 bacc 0.773 f1 0.765 | 1s
+fold 4 ep   9 | train 0.209 | val loss 0.725 bacc 0.787 f1 0.764 | 1s
+fold 4 ep  10 | train 0.190 | val loss 0.718 bacc 0.811 f1 0.811 | 1s
+fold 4 ep  11 | train 0.165 | val loss 1.121 bacc 0.688 f1 0.642 | 1s
+fold 4 ep  12 | train 0.162 | val loss 0.863 bacc 0.763 f1 0.757 | 1s
+fold 4 ep  13 | train 0.150 | val loss 0.810 bacc 0.793 f1 0.775 | 1s
+fold 4 ep  14 | train 0.103 | val loss 0.947 bacc 0.779 f1 0.760 | 1s
+fold 4 ep  15 | train 0.099 | val loss 1.187 bacc 0.713 f1 0.695 | 1s
+fold 4 ep  16 | train 0.105 | val loss 1.000 bacc 0.812 f1 0.782 | 1s
+fold 4 ep  17 | train 0.078 | val loss 1.101 bacc 0.758 f1 0.743 | 1s
+fold 4 ep  18 | train 0.072 | val loss 0.995 bacc 0.750 f1 0.757 | 1s
+fold 4 ep  19 | train 0.110 | val loss 1.039 bacc 0.821 f1 0.789 | 1s
+fold 4 done: best epoch 6, val bacc 0.802
+== [39/60] vits16_lunit/meanpool/seed0/fold4 done in 0.3 min | elapsed 0.93 h
+fold 5 ep   1 | train 1.027 | val loss 0.661 bacc 0.719 f1 0.763 | 1s *
+fold 5 ep   2 | train 0.604 | val loss 0.764 bacc 0.660 f1 0.680 | 1s
+fold 5 ep   3 | train 0.481 | val loss 0.552 bacc 0.758 f1 0.786 | 1s *
+fold 5 ep   4 | train 0.400 | val loss 0.567 bacc 0.729 f1 0.763 | 1s
+fold 5 ep   5 | train 0.339 | val loss 0.682 bacc 0.730 f1 0.775 | 1s
+fold 5 ep   6 | train 0.350 | val loss 0.688 bacc 0.705 f1 0.752 | 1s
+fold 5 ep   7 | train 0.263 | val loss 0.790 bacc 0.728 f1 0.757 | 1s
+fold 5 ep   8 | train 0.239 | val loss 0.679 bacc 0.743 f1 0.784 | 1s
+fold 5 ep   9 | train 0.231 | val loss 0.792 bacc 0.751 f1 0.766 | 1s
+fold 5 ep  10 | train 0.187 | val loss 0.742 bacc 0.735 f1 0.779 | 1s
+fold 5 ep  11 | train 0.176 | val loss 0.846 bacc 0.729 f1 0.771 | 1s
+fold 5 ep  12 | train 0.176 | val loss 0.778 bacc 0.769 f1 0.807 | 1s
+fold 5 ep  13 | train 0.123 | val loss 1.049 bacc 0.717 f1 0.756 | 1s
+fold 5 ep  14 | train 0.150 | val loss 0.782 bacc 0.729 f1 0.766 | 1s
+fold 5 ep  15 | train 0.087 | val loss 0.726 bacc 0.739 f1 0.760 | 1s
+fold 5 ep  16 | train 0.080 | val loss 0.873 bacc 0.748 f1 0.776 | 1s
+fold 5 ep  17 | train 0.119 | val loss 1.038 bacc 0.747 f1 0.788 | 1s
+fold 5 ep  18 | train 0.060 | val loss 1.190 bacc 0.733 f1 0.775 | 1s
+fold 5 ep  19 | train 0.084 | val loss 0.968 bacc 0.740 f1 0.778 | 1s
+fold 5 done: best epoch 3, val bacc 0.758
+== [40/60] vits16_lunit/meanpool/seed0/fold5 done in 0.3 min | elapsed 0.93 h
+fold 1 ep   1 | train 0.859 | val loss 0.462 bacc 0.778 f1 0.777 | 1s *
+fold 1 ep   2 | train 0.509 | val loss 0.442 bacc 0.777 f1 0.815 | 1s *
+fold 1 ep   3 | train 0.386 | val loss 0.465 bacc 0.767 f1 0.814 | 1s
+fold 1 ep   4 | train 0.339 | val loss 0.359 bacc 0.850 f1 0.871 | 1s *
+fold 1 ep   5 | train 0.294 | val loss 0.466 bacc 0.806 f1 0.791 | 1s
+fold 1 ep   6 | train 0.247 | val loss 0.534 bacc 0.757 f1 0.700 | 1s
+fold 1 ep   7 | train 0.216 | val loss 0.380 bacc 0.833 f1 0.835 | 1s
+fold 1 ep   8 | train 0.219 | val loss 0.475 bacc 0.797 f1 0.828 | 1s
+fold 1 ep   9 | train 0.167 | val loss 0.465 bacc 0.820 f1 0.784 | 1s
+fold 1 ep  10 | train 0.159 | val loss 0.525 bacc 0.812 f1 0.785 | 1s
+fold 1 ep  11 | train 0.130 | val loss 0.430 bacc 0.800 f1 0.805 | 1s
+fold 1 ep  12 | train 0.118 | val loss 0.687 bacc 0.739 f1 0.759 | 1s
+fold 1 ep  13 | train 0.100 | val loss 0.525 bacc 0.795 f1 0.807 | 1s
+fold 1 ep  14 | train 0.092 | val loss 0.478 bacc 0.782 f1 0.777 | 1s
+fold 1 ep  15 | train 0.068 | val loss 0.510 bacc 0.796 f1 0.810 | 1s
+fold 1 ep  16 | train 0.078 | val loss 0.545 bacc 0.840 f1 0.853 | 1s
+fold 1 ep  17 | train 0.052 | val loss 0.594 bacc 0.802 f1 0.802 | 1s
+fold 1 ep  18 | train 0.030 | val loss 0.521 bacc 0.830 f1 0.837 | 1s
+fold 1 ep  19 | train 0.057 | val loss 0.557 bacc 0.800 f1 0.808 | 1s
+fold 1 done: best epoch 4, val bacc 0.850
+== [41/60] vits16_lunit/abmil/seed0/fold1 done in 0.4 min | elapsed 0.94 h
+fold 2 ep   1 | train 0.853 | val loss 0.559 bacc 0.789 f1 0.773 | 1s *
+fold 2 ep   2 | train 0.439 | val loss 0.593 bacc 0.734 f1 0.750 | 1s
+fold 2 ep   3 | train 0.357 | val loss 0.485 bacc 0.786 f1 0.792 | 1s *
+fold 2 ep   4 | train 0.301 | val loss 0.557 bacc 0.800 f1 0.785 | 1s
+fold 2 ep   5 | train 0.246 | val loss 0.678 bacc 0.763 f1 0.771 | 1s
+fold 2 ep   6 | train 0.200 | val loss 0.623 bacc 0.808 f1 0.797 | 1s
+fold 2 ep   7 | train 0.193 | val loss 0.935 bacc 0.769 f1 0.734 | 1s
+fold 2 ep   8 | train 0.179 | val loss 0.668 bacc 0.818 f1 0.803 | 1s
+fold 2 ep   9 | train 0.149 | val loss 0.733 bacc 0.788 f1 0.781 | 1s
+fold 2 ep  10 | train 0.115 | val loss 0.779 bacc 0.794 f1 0.786 | 1s
+fold 2 ep  11 | train 0.102 | val loss 0.911 bacc 0.804 f1 0.784 | 1s
+fold 2 ep  12 | train 0.079 | val loss 0.804 bacc 0.789 f1 0.778 | 1s
+fold 2 ep  13 | train 0.087 | val loss 0.969 bacc 0.838 f1 0.828 | 1s
+fold 2 ep  14 | train 0.074 | val loss 0.778 bacc 0.782 f1 0.784 | 1s
+fold 2 ep  15 | train 0.082 | val loss 0.937 bacc 0.797 f1 0.794 | 1s
+fold 2 ep  16 | train 0.068 | val loss 0.872 bacc 0.819 f1 0.813 | 1s
+fold 2 ep  17 | train 0.077 | val loss 0.868 bacc 0.803 f1 0.803 | 1s
+fold 2 ep  18 | train 0.036 | val loss 1.163 bacc 0.786 f1 0.767 | 1s
+fold 2 ep  19 | train 0.021 | val loss 1.101 bacc 0.792 f1 0.784 | 1s
+fold 2 done: best epoch 3, val bacc 0.786
+== [42/60] vits16_lunit/abmil/seed0/fold2 done in 0.4 min | elapsed 0.94 h
+fold 3 ep   1 | train 0.817 | val loss 0.652 bacc 0.760 f1 0.777 | 1s *
+fold 3 ep   2 | train 0.432 | val loss 0.707 bacc 0.760 f1 0.783 | 1s
+fold 3 ep   3 | train 0.345 | val loss 0.717 bacc 0.749 f1 0.765 | 1s
+fold 3 ep   4 | train 0.277 | val loss 0.667 bacc 0.813 f1 0.805 | 1s
+fold 3 ep   5 | train 0.241 | val loss 0.635 bacc 0.825 f1 0.811 | 1s *
+fold 3 ep   6 | train 0.199 | val loss 0.766 bacc 0.733 f1 0.764 | 1s
+fold 3 ep   7 | train 0.174 | val loss 0.839 bacc 0.733 f1 0.752 | 1s
+fold 3 ep   8 | train 0.161 | val loss 0.817 bacc 0.782 f1 0.791 | 1s
+fold 3 ep   9 | train 0.124 | val loss 0.973 bacc 0.714 f1 0.742 | 1s
+fold 3 ep  10 | train 0.104 | val loss 0.958 bacc 0.764 f1 0.777 | 1s
+fold 3 ep  11 | train 0.082 | val loss 1.201 bacc 0.739 f1 0.752 | 1s
+fold 3 ep  12 | train 0.111 | val loss 1.298 bacc 0.697 f1 0.692 | 1s
+fold 3 ep  13 | train 0.096 | val loss 1.325 bacc 0.756 f1 0.745 | 1s
+fold 3 ep  14 | train 0.074 | val loss 1.155 bacc 0.758 f1 0.780 | 1s
+fold 3 ep  15 | train 0.045 | val loss 1.224 bacc 0.677 f1 0.692 | 1s
+fold 3 ep  16 | train 0.043 | val loss 1.131 bacc 0.842 f1 0.796 | 1s
+fold 3 ep  17 | train 0.028 | val loss 1.437 bacc 0.751 f1 0.744 | 1s
+fold 3 ep  18 | train 0.021 | val loss 1.406 bacc 0.720 f1 0.714 | 1s
+fold 3 ep  19 | train 0.045 | val loss 1.615 bacc 0.727 f1 0.747 | 1s
+fold 3 done: best epoch 5, val bacc 0.825
+== [43/60] vits16_lunit/abmil/seed0/fold3 done in 0.4 min | elapsed 0.95 h
+fold 4 ep   1 | train 0.833 | val loss 0.535 bacc 0.705 f1 0.740 | 1s *
+fold 4 ep   2 | train 0.432 | val loss 0.517 bacc 0.846 f1 0.807 | 1s *
+fold 4 ep   3 | train 0.341 | val loss 0.501 bacc 0.785 f1 0.793 | 1s *
+fold 4 ep   4 | train 0.291 | val loss 0.570 bacc 0.802 f1 0.784 | 1s
+fold 4 ep   5 | train 0.239 | val loss 0.546 bacc 0.729 f1 0.738 | 1s
+fold 4 ep   6 | train 0.204 | val loss 0.667 bacc 0.820 f1 0.800 | 1s
+fold 4 ep   7 | train 0.174 | val loss 0.733 bacc 0.757 f1 0.748 | 1s
+fold 4 ep   8 | train 0.149 | val loss 0.774 bacc 0.667 f1 0.680 | 1s
+fold 4 ep   9 | train 0.140 | val loss 0.814 bacc 0.704 f1 0.694 | 1s
+fold 4 ep  10 | train 0.103 | val loss 0.761 bacc 0.712 f1 0.718 | 1s
+fold 4 ep  11 | train 0.093 | val loss 0.901 bacc 0.741 f1 0.726 | 1s
+fold 4 ep  12 | train 0.070 | val loss 0.820 bacc 0.731 f1 0.720 | 1s
+fold 4 ep  13 | train 0.101 | val loss 0.814 bacc 0.754 f1 0.753 | 1s
+fold 4 ep  14 | train 0.046 | val loss 0.955 bacc 0.755 f1 0.750 | 1s
+fold 4 ep  15 | train 0.044 | val loss 1.127 bacc 0.748 f1 0.749 | 1s
+fold 4 ep  16 | train 0.041 | val loss 1.040 bacc 0.767 f1 0.762 | 1s
+fold 4 ep  17 | train 0.030 | val loss 1.056 bacc 0.710 f1 0.717 | 1s
+fold 4 ep  18 | train 0.017 | val loss 1.080 bacc 0.691 f1 0.692 | 1s
+fold 4 ep  19 | train 0.061 | val loss 1.154 bacc 0.754 f1 0.724 | 1s
+fold 4 done: best epoch 3, val bacc 0.785
+== [44/60] vits16_lunit/abmil/seed0/fold4 done in 0.4 min | elapsed 0.95 h
+fold 5 ep   1 | train 0.868 | val loss 0.557 bacc 0.772 f1 0.809 | 1s *
+fold 5 ep   2 | train 0.458 | val loss 0.649 bacc 0.708 f1 0.733 | 1s
+fold 5 ep   3 | train 0.348 | val loss 0.518 bacc 0.790 f1 0.798 | 1s *
+fold 5 ep   4 | train 0.273 | val loss 0.577 bacc 0.764 f1 0.790 | 1s
+fold 5 ep   5 | train 0.261 | val loss 0.667 bacc 0.740 f1 0.772 | 1s
+fold 5 ep   6 | train 0.231 | val loss 0.683 bacc 0.748 f1 0.777 | 1s
+fold 5 ep   7 | train 0.164 | val loss 0.649 bacc 0.761 f1 0.787 | 1s
+fold 5 ep   8 | train 0.152 | val loss 0.720 bacc 0.794 f1 0.812 | 1s
+fold 5 ep   9 | train 0.139 | val loss 0.736 bacc 0.811 f1 0.828 | 1s
+fold 5 ep  10 | train 0.109 | val loss 0.838 bacc 0.780 f1 0.810 | 1s
+fold 5 ep  11 | train 0.109 | val loss 0.852 bacc 0.780 f1 0.809 | 1s
+fold 5 ep  12 | train 0.105 | val loss 0.739 bacc 0.802 f1 0.819 | 1s
+fold 5 ep  13 | train 0.065 | val loss 0.860 bacc 0.783 f1 0.807 | 1s
+fold 5 ep  14 | train 0.053 | val loss 0.804 bacc 0.802 f1 0.827 | 1s
+fold 5 ep  15 | train 0.044 | val loss 0.876 bacc 0.827 f1 0.839 | 1s
+fold 5 ep  16 | train 0.041 | val loss 0.879 bacc 0.765 f1 0.789 | 1s
+fold 5 ep  17 | train 0.131 | val loss 1.023 bacc 0.786 f1 0.815 | 1s
+fold 5 ep  18 | train 0.049 | val loss 0.922 bacc 0.800 f1 0.818 | 1s
+fold 5 ep  19 | train 0.024 | val loss 1.036 bacc 0.777 f1 0.808 | 1s
+fold 5 done: best epoch 3, val bacc 0.790
+== [45/60] vits16_lunit/abmil/seed0/fold5 done in 0.4 min | elapsed 0.96 h
+fold 1 ep   1 | train 1.090 | val loss 0.665 bacc 0.752 f1 0.773 | 2s *
+fold 1 ep   2 | train 0.674 | val loss 0.573 bacc 0.729 f1 0.762 | 1s *
+fold 1 ep   3 | train 0.516 | val loss 0.541 bacc 0.661 f1 0.701 | 1s *
+fold 1 ep   4 | train 0.445 | val loss 0.455 bacc 0.840 f1 0.863 | 1s *
+fold 1 ep   5 | train 0.393 | val loss 0.504 bacc 0.828 f1 0.830 | 1s
+fold 1 ep   6 | train 0.344 | val loss 0.538 bacc 0.823 f1 0.793 | 1s
+fold 1 ep   7 | train 0.309 | val loss 0.418 bacc 0.820 f1 0.833 | 1s *
+fold 1 ep   8 | train 0.285 | val loss 0.460 bacc 0.816 f1 0.845 | 1s
+fold 1 ep   9 | train 0.255 | val loss 0.445 bacc 0.839 f1 0.849 | 1s
+fold 1 ep  10 | train 0.224 | val loss 0.444 bacc 0.833 f1 0.836 | 1s
+fold 1 ep  11 | train 0.220 | val loss 0.438 bacc 0.806 f1 0.838 | 1s
+fold 1 ep  12 | train 0.196 | val loss 0.492 bacc 0.786 f1 0.805 | 1s
+fold 1 ep  13 | train 0.187 | val loss 0.437 bacc 0.839 f1 0.852 | 2s
+fold 1 ep  14 | train 0.175 | val loss 0.439 bacc 0.836 f1 0.855 | 1s
+fold 1 ep  15 | train 0.163 | val loss 0.470 bacc 0.850 f1 0.865 | 1s
+fold 1 ep  16 | train 0.143 | val loss 0.499 bacc 0.840 f1 0.852 | 1s
+fold 1 ep  17 | train 0.160 | val loss 0.590 bacc 0.837 f1 0.826 | 1s
+fold 1 ep  18 | train 0.153 | val loss 0.630 bacc 0.843 f1 0.845 | 1s
+fold 1 ep  19 | train 0.148 | val loss 0.501 bacc 0.881 f1 0.870 | 1s
+fold 1 done: best epoch 7, val bacc 0.820
+== [46/60] vits16_lunit/dsmil/seed0/fold1 done in 0.5 min | elapsed 0.97 h
+fold 2 ep   1 | train 1.139 | val loss 0.796 bacc 0.778 f1 0.783 | 1s *
+fold 2 ep   2 | train 0.726 | val loss 0.703 bacc 0.785 f1 0.816 | 1s *
+fold 2 ep   3 | train 0.567 | val loss 0.584 bacc 0.814 f1 0.823 | 1s *
+fold 2 ep   4 | train 0.465 | val loss 0.577 bacc 0.820 f1 0.834 | 1s *
+fold 2 ep   5 | train 0.389 | val loss 0.656 bacc 0.774 f1 0.789 | 1s
+fold 2 ep   6 | train 0.334 | val loss 0.571 bacc 0.799 f1 0.806 | 1s *
+fold 2 ep   7 | train 0.307 | val loss 0.656 bacc 0.786 f1 0.764 | 1s
+fold 2 ep   8 | train 0.269 | val loss 0.579 bacc 0.829 f1 0.829 | 2s
+fold 2 ep   9 | train 0.230 | val loss 0.674 bacc 0.797 f1 0.777 | 1s
+fold 2 ep  10 | train 0.231 | val loss 0.633 bacc 0.796 f1 0.796 | 1s
+fold 2 ep  11 | train 0.194 | val loss 0.685 bacc 0.839 f1 0.815 | 1s
+fold 2 ep  12 | train 0.170 | val loss 0.644 bacc 0.824 f1 0.837 | 1s
+fold 2 ep  13 | train 0.164 | val loss 0.722 bacc 0.814 f1 0.807 | 1s
+fold 2 ep  14 | train 0.146 | val loss 0.700 bacc 0.829 f1 0.829 | 1s
+fold 2 ep  15 | train 0.158 | val loss 0.677 bacc 0.835 f1 0.836 | 1s
+fold 2 ep  16 | train 0.121 | val loss 0.760 bacc 0.835 f1 0.845 | 1s
+fold 2 ep  17 | train 0.118 | val loss 0.813 bacc 0.819 f1 0.814 | 1s
+fold 2 ep  18 | train 0.106 | val loss 0.880 bacc 0.824 f1 0.815 | 1s
+fold 2 ep  19 | train 0.148 | val loss 0.795 bacc 0.829 f1 0.829 | 1s
+fold 2 done: best epoch 6, val bacc 0.799
+== [47/60] vits16_lunit/dsmil/seed0/fold2 done in 0.4 min | elapsed 0.98 h
+fold 3 ep   1 | train 1.105 | val loss 0.916 bacc 0.695 f1 0.704 | 1s *
+fold 3 ep   2 | train 0.725 | val loss 0.896 bacc 0.653 f1 0.651 | 1s *
+fold 3 ep   3 | train 0.559 | val loss 0.779 bacc 0.689 f1 0.679 | 1s *
+fold 3 ep   4 | train 0.452 | val loss 0.741 bacc 0.804 f1 0.789 | 1s *
+fold 3 ep   5 | train 0.405 | val loss 0.670 bacc 0.814 f1 0.818 | 1s *
+fold 3 ep   6 | train 0.338 | val loss 0.773 bacc 0.737 f1 0.767 | 1s
+fold 3 ep   7 | train 0.314 | val loss 0.705 bacc 0.789 f1 0.795 | 1s
+fold 3 ep   8 | train 0.274 | val loss 0.785 bacc 0.782 f1 0.796 | 1s
+fold 3 ep   9 | train 0.240 | val loss 0.883 bacc 0.662 f1 0.674 | 1s
+fold 3 ep  10 | train 0.229 | val loss 0.843 bacc 0.742 f1 0.748 | 1s
+fold 3 ep  11 | train 0.206 | val loss 0.875 bacc 0.749 f1 0.766 | 1s
+fold 3 ep  12 | train 0.196 | val loss 0.792 bacc 0.739 f1 0.747 | 1s
+fold 3 ep  13 | train 0.164 | val loss 0.897 bacc 0.808 f1 0.787 | 1s
+fold 3 ep  14 | train 0.155 | val loss 1.026 bacc 0.739 f1 0.750 | 1s
+fold 3 ep  15 | train 0.163 | val loss 0.980 bacc 0.714 f1 0.726 | 1s
+fold 3 ep  16 | train 0.139 | val loss 0.916 bacc 0.799 f1 0.783 | 1s
+fold 3 ep  17 | train 0.135 | val loss 0.889 bacc 0.729 f1 0.729 | 1s
+fold 3 ep  18 | train 0.117 | val loss 0.905 bacc 0.764 f1 0.768 | 1s
+fold 3 ep  19 | train 0.105 | val loss 0.992 bacc 0.739 f1 0.748 | 1s
+fold 3 done: best epoch 5, val bacc 0.814
+== [48/60] vits16_lunit/dsmil/seed0/fold3 done in 0.5 min | elapsed 0.98 h
+fold 4 ep   1 | train 1.078 | val loss 0.794 bacc 0.744 f1 0.771 | 1s *
+fold 4 ep   2 | train 0.624 | val loss 0.739 bacc 0.809 f1 0.773 | 1s *
+fold 4 ep   3 | train 0.511 | val loss 0.619 bacc 0.777 f1 0.781 | 1s *
+fold 4 ep   4 | train 0.419 | val loss 0.639 bacc 0.800 f1 0.778 | 1s
+fold 4 ep   5 | train 0.342 | val loss 0.697 bacc 0.786 f1 0.792 | 1s
+fold 4 ep   6 | train 0.327 | val loss 0.672 bacc 0.760 f1 0.756 | 1s
+fold 4 ep   7 | train 0.270 | val loss 0.718 bacc 0.765 f1 0.752 | 2s
+fold 4 ep   8 | train 0.244 | val loss 0.787 bacc 0.720 f1 0.694 | 1s
+fold 4 ep   9 | train 0.219 | val loss 0.844 bacc 0.718 f1 0.699 | 1s
+fold 4 ep  10 | train 0.199 | val loss 0.785 bacc 0.750 f1 0.730 | 1s
+fold 4 ep  11 | train 0.187 | val loss 1.007 bacc 0.693 f1 0.680 | 1s
+fold 4 ep  12 | train 0.180 | val loss 0.822 bacc 0.775 f1 0.753 | 2s
+fold 4 ep  13 | train 0.146 | val loss 0.894 bacc 0.780 f1 0.756 | 1s
+fold 4 ep  14 | train 0.156 | val loss 1.006 bacc 0.749 f1 0.723 | 1s
+fold 4 ep  15 | train 0.141 | val loss 1.261 bacc 0.668 f1 0.658 | 1s
+fold 4 ep  16 | train 0.170 | val loss 0.908 bacc 0.750 f1 0.728 | 1s
+fold 4 ep  17 | train 0.128 | val loss 0.898 bacc 0.736 f1 0.726 | 1s
+fold 4 ep  18 | train 0.120 | val loss 0.923 bacc 0.720 f1 0.713 | 1s
+fold 4 ep  19 | train 0.103 | val loss 0.891 bacc 0.740 f1 0.726 | 1s
+fold 4 done: best epoch 3, val bacc 0.777
+== [49/60] vits16_lunit/dsmil/seed0/fold4 done in 0.5 min | elapsed 0.99 h
+fold 5 ep   1 | train 1.094 | val loss 0.824 bacc 0.705 f1 0.752 | 1s *
+fold 5 ep   2 | train 0.754 | val loss 0.878 bacc 0.709 f1 0.726 | 2s
+fold 5 ep   3 | train 0.625 | val loss 0.694 bacc 0.727 f1 0.752 | 1s *
+fold 5 ep   4 | train 0.543 | val loss 0.688 bacc 0.763 f1 0.793 | 1s *
+fold 5 ep   5 | train 0.483 | val loss 0.709 bacc 0.739 f1 0.772 | 1s
+fold 5 ep   6 | train 0.452 | val loss 0.719 bacc 0.699 f1 0.749 | 1s
+fold 5 ep   7 | train 0.375 | val loss 0.751 bacc 0.779 f1 0.812 | 1s
+fold 5 ep   8 | train 0.350 | val loss 0.700 bacc 0.766 f1 0.783 | 1s
+fold 5 ep   9 | train 0.322 | val loss 0.688 bacc 0.804 f1 0.833 | 1s *
+fold 5 ep  10 | train 0.290 | val loss 0.725 bacc 0.778 f1 0.796 | 1s
+fold 5 ep  11 | train 0.276 | val loss 0.746 bacc 0.747 f1 0.768 | 1s
+fold 5 ep  12 | train 0.250 | val loss 0.753 bacc 0.811 f1 0.813 | 1s
+fold 5 ep  13 | train 0.223 | val loss 0.859 bacc 0.740 f1 0.773 | 1s
+fold 5 ep  14 | train 0.244 | val loss 0.731 bacc 0.771 f1 0.798 | 1s
+fold 5 ep  15 | train 0.216 | val loss 0.806 bacc 0.751 f1 0.762 | 1s
+fold 5 ep  16 | train 0.193 | val loss 0.775 bacc 0.772 f1 0.791 | 1s
+fold 5 ep  17 | train 0.191 | val loss 0.911 bacc 0.740 f1 0.775 | 1s
+fold 5 ep  18 | train 0.171 | val loss 0.839 bacc 0.753 f1 0.784 | 1s
+fold 5 ep  19 | train 0.172 | val loss 0.936 bacc 0.745 f1 0.787 | 1s
+fold 5 done: best epoch 9, val bacc 0.804
+== [50/60] vits16_lunit/dsmil/seed0/fold5 done in 0.5 min | elapsed 1.00 h
+fold 1 ep   1 | train 0.675 | val loss 0.344 bacc 0.805 f1 0.820 | 3s *
+fold 1 ep   2 | train 0.406 | val loss 0.362 bacc 0.767 f1 0.805 | 3s
+fold 1 ep   3 | train 0.304 | val loss 0.384 bacc 0.767 f1 0.816 | 3s
+fold 1 ep   4 | train 0.258 | val loss 0.285 bacc 0.835 f1 0.850 | 3s *
+fold 1 ep   5 | train 0.231 | val loss 0.384 bacc 0.811 f1 0.808 | 3s
+fold 1 ep   6 | train 0.191 | val loss 0.440 bacc 0.768 f1 0.715 | 3s
+fold 1 ep   7 | train 0.164 | val loss 0.262 bacc 0.873 f1 0.882 | 3s *
+fold 1 ep   8 | train 0.169 | val loss 0.413 bacc 0.744 f1 0.760 | 3s
+fold 1 ep   9 | train 0.128 | val loss 0.387 bacc 0.831 f1 0.803 | 3s
+fold 1 ep  10 | train 0.114 | val loss 0.385 bacc 0.810 f1 0.796 | 3s
+fold 1 ep  11 | train 0.099 | val loss 0.333 bacc 0.874 f1 0.884 | 3s
+fold 1 ep  12 | train 0.072 | val loss 0.422 bacc 0.766 f1 0.768 | 3s
+fold 1 ep  13 | train 0.070 | val loss 0.346 bacc 0.796 f1 0.814 | 3s
+fold 1 ep  14 | train 0.069 | val loss 0.392 bacc 0.792 f1 0.793 | 3s
+fold 1 ep  15 | train 0.100 | val loss 0.419 bacc 0.795 f1 0.805 | 3s
+fold 1 ep  16 | train 0.063 | val loss 0.415 bacc 0.792 f1 0.812 | 3s
+fold 1 ep  17 | train 0.043 | val loss 0.463 bacc 0.769 f1 0.781 | 3s
+fold 1 ep  18 | train 0.026 | val loss 0.454 bacc 0.819 f1 0.828 | 3s
+fold 1 ep  19 | train 0.045 | val loss 0.453 bacc 0.818 f1 0.821 | 3s
+fold 1 done: best epoch 7, val bacc 0.873
+== [51/60] vits16_lunit/clam_sb/seed0/fold1 done in 0.9 min | elapsed 1.01 h
+fold 2 ep   1 | train 0.648 | val loss 0.420 bacc 0.829 f1 0.812 | 3s *
+fold 2 ep   2 | train 0.348 | val loss 0.470 bacc 0.740 f1 0.751 | 3s
+fold 2 ep   3 | train 0.284 | val loss 0.377 bacc 0.780 f1 0.778 | 3s *
+fold 2 ep   4 | train 0.236 | val loss 0.437 bacc 0.814 f1 0.807 | 3s
+fold 2 ep   5 | train 0.196 | val loss 0.547 bacc 0.757 f1 0.762 | 3s
+fold 2 ep   6 | train 0.157 | val loss 0.492 bacc 0.732 f1 0.737 | 3s
+fold 2 ep   7 | train 0.185 | val loss 0.539 bacc 0.816 f1 0.784 | 3s
+fold 2 ep   8 | train 0.135 | val loss 0.543 bacc 0.818 f1 0.804 | 3s
+fold 2 ep   9 | train 0.115 | val loss 0.555 bacc 0.813 f1 0.795 | 3s
+fold 2 ep  10 | train 0.109 | val loss 0.550 bacc 0.785 f1 0.792 | 3s
+fold 2 ep  11 | train 0.077 | val loss 0.837 bacc 0.817 f1 0.786 | 3s
+fold 2 ep  12 | train 0.073 | val loss 0.643 bacc 0.757 f1 0.751 | 3s
+fold 2 ep  13 | train 0.078 | val loss 0.743 bacc 0.813 f1 0.806 | 3s
+fold 2 ep  14 | train 0.050 | val loss 0.697 bacc 0.808 f1 0.800 | 3s
+fold 2 ep  15 | train 0.038 | val loss 0.745 bacc 0.808 f1 0.793 | 3s
+fold 2 ep  16 | train 0.041 | val loss 0.795 bacc 0.792 f1 0.784 | 3s
+fold 2 ep  17 | train 0.080 | val loss 0.694 bacc 0.798 f1 0.784 | 3s
+fold 2 ep  18 | train 0.040 | val loss 0.837 bacc 0.805 f1 0.774 | 3s
+fold 2 ep  19 | train 0.020 | val loss 0.888 bacc 0.785 f1 0.774 | 3s
+fold 2 done: best epoch 3, val bacc 0.780
+== [52/60] vits16_lunit/clam_sb/seed0/fold2 done in 0.8 min | elapsed 1.03 h
+fold 3 ep   1 | train 0.628 | val loss 0.501 bacc 0.762 f1 0.786 | 3s *
+fold 3 ep   2 | train 0.342 | val loss 0.581 bacc 0.760 f1 0.780 | 3s
+fold 3 ep   3 | train 0.263 | val loss 0.618 bacc 0.765 f1 0.769 | 3s
+fold 3 ep   4 | train 0.207 | val loss 0.553 bacc 0.829 f1 0.798 | 3s
+fold 3 ep   5 | train 0.195 | val loss 0.468 bacc 0.813 f1 0.805 | 3s *
+fold 3 ep   6 | train 0.142 | val loss 0.652 bacc 0.767 f1 0.788 | 3s
+fold 3 ep   7 | train 0.126 | val loss 0.614 bacc 0.811 f1 0.810 | 3s
+fold 3 ep   8 | train 0.116 | val loss 0.701 bacc 0.809 f1 0.815 | 3s
+fold 3 ep   9 | train 0.088 | val loss 0.816 bacc 0.684 f1 0.703 | 3s
+fold 3 ep  10 | train 0.094 | val loss 0.721 bacc 0.764 f1 0.772 | 3s
+fold 3 ep  11 | train 0.101 | val loss 0.837 bacc 0.749 f1 0.771 | 3s
+fold 3 ep  12 | train 0.084 | val loss 0.651 bacc 0.761 f1 0.757 | 3s
+fold 3 ep  13 | train 0.083 | val loss 1.078 bacc 0.754 f1 0.759 | 3s
+fold 3 ep  14 | train 0.036 | val loss 0.912 bacc 0.774 f1 0.784 | 3s
+fold 3 ep  15 | train 0.044 | val loss 0.822 bacc 0.753 f1 0.756 | 3s
+fold 3 ep  16 | train 0.037 | val loss 0.904 bacc 0.826 f1 0.800 | 3s
+fold 3 ep  17 | train 0.027 | val loss 1.089 bacc 0.821 f1 0.771 | 3s
+fold 3 ep  18 | train 0.056 | val loss 1.165 bacc 0.756 f1 0.777 | 3s
+fold 3 ep  19 | train 0.088 | val loss 0.858 bacc 0.782 f1 0.791 | 3s
+fold 3 done: best epoch 5, val bacc 0.813
+== [53/60] vits16_lunit/clam_sb/seed0/fold3 done in 0.9 min | elapsed 1.04 h
+fold 4 ep   1 | train 0.617 | val loss 0.403 bacc 0.725 f1 0.749 | 3s *
+fold 4 ep   2 | train 0.337 | val loss 0.410 bacc 0.828 f1 0.792 | 3s
+fold 4 ep   3 | train 0.263 | val loss 0.371 bacc 0.798 f1 0.803 | 3s *
+fold 4 ep   4 | train 0.226 | val loss 0.423 bacc 0.787 f1 0.779 | 3s
+fold 4 ep   5 | train 0.163 | val loss 0.496 bacc 0.706 f1 0.732 | 3s
+fold 4 ep   6 | train 0.173 | val loss 0.487 bacc 0.798 f1 0.797 | 3s
+fold 4 ep   7 | train 0.146 | val loss 0.533 bacc 0.771 f1 0.777 | 3s
+fold 4 ep   8 | train 0.112 | val loss 0.602 bacc 0.708 f1 0.721 | 3s
+fold 4 ep   9 | train 0.103 | val loss 0.528 bacc 0.789 f1 0.781 | 3s
+fold 4 ep  10 | train 0.072 | val loss 0.743 bacc 0.661 f1 0.690 | 3s
+fold 4 ep  11 | train 0.087 | val loss 0.643 bacc 0.767 f1 0.753 | 3s
+fold 4 ep  12 | train 0.058 | val loss 0.539 bacc 0.779 f1 0.771 | 3s
+fold 4 ep  13 | train 0.050 | val loss 0.643 bacc 0.777 f1 0.786 | 3s
+fold 4 ep  14 | train 0.037 | val loss 0.720 bacc 0.786 f1 0.777 | 3s
+fold 4 ep  15 | train 0.045 | val loss 0.909 bacc 0.748 f1 0.744 | 3s
+fold 4 ep  16 | train 0.034 | val loss 0.714 bacc 0.772 f1 0.756 | 3s
+fold 4 ep  17 | train 0.064 | val loss 0.657 bacc 0.757 f1 0.752 | 3s
+fold 4 ep  18 | train 0.024 | val loss 0.740 bacc 0.761 f1 0.758 | 3s
+fold 4 ep  19 | train 0.026 | val loss 0.655 bacc 0.748 f1 0.748 | 3s
+fold 4 done: best epoch 3, val bacc 0.798
+== [54/60] vits16_lunit/clam_sb/seed0/fold4 done in 0.8 min | elapsed 1.05 h
+fold 5 ep   1 | train 0.616 | val loss 0.474 bacc 0.732 f1 0.772 | 3s *
+fold 5 ep   2 | train 0.359 | val loss 0.572 bacc 0.712 f1 0.734 | 3s
+fold 5 ep   3 | train 0.275 | val loss 0.429 bacc 0.768 f1 0.780 | 3s *
+fold 5 ep   4 | train 0.205 | val loss 0.488 bacc 0.724 f1 0.757 | 3s
+fold 5 ep   5 | train 0.207 | val loss 0.527 bacc 0.791 f1 0.813 | 3s
+fold 5 ep   6 | train 0.177 | val loss 0.568 bacc 0.739 f1 0.782 | 3s
+fold 5 ep   7 | train 0.138 | val loss 0.629 bacc 0.784 f1 0.808 | 3s
+fold 5 ep   8 | train 0.124 | val loss 0.620 bacc 0.789 f1 0.806 | 3s
+fold 5 ep   9 | train 0.105 | val loss 0.586 bacc 0.786 f1 0.816 | 3s
+fold 5 ep  10 | train 0.078 | val loss 0.704 bacc 0.815 f1 0.839 | 3s
+fold 5 ep  11 | train 0.079 | val loss 0.653 bacc 0.797 f1 0.812 | 3s
+fold 5 ep  12 | train 0.070 | val loss 0.611 bacc 0.766 f1 0.777 | 3s
+fold 5 ep  13 | train 0.050 | val loss 0.703 bacc 0.797 f1 0.812 | 3s
+fold 5 ep  14 | train 0.066 | val loss 0.664 bacc 0.774 f1 0.803 | 3s
+fold 5 ep  15 | train 0.104 | val loss 0.656 bacc 0.771 f1 0.798 | 3s
+fold 5 ep  16 | train 0.046 | val loss 0.648 bacc 0.773 f1 0.798 | 3s
+fold 5 ep  17 | train 0.044 | val loss 0.791 bacc 0.762 f1 0.794 | 3s
+fold 5 ep  18 | train 0.027 | val loss 0.749 bacc 0.783 f1 0.807 | 3s
+fold 5 ep  19 | train 0.022 | val loss 0.759 bacc 0.773 f1 0.798 | 3s
+fold 5 done: best epoch 3, val bacc 0.768
+== [55/60] vits16_lunit/clam_sb/seed0/fold5 done in 0.8 min | elapsed 1.07 h
+fold 1 ep   1 | train 0.934 | val loss 0.577 bacc 0.718 f1 0.695 | 22s *
+fold 1 ep   2 | train 0.598 | val loss 0.689 bacc 0.653 f1 0.614 | 22s
+fold 1 ep   3 | train 0.401 | val loss 0.413 bacc 0.755 f1 0.800 | 22s *
+fold 1 ep   4 | train 0.196 | val loss 0.742 bacc 0.701 f1 0.736 | 22s
+fold 1 ep   5 | train 0.231 | val loss 0.479 bacc 0.820 f1 0.845 | 22s
+fold 1 ep   6 | train 0.126 | val loss 1.202 bacc 0.676 f1 0.598 | 22s
+fold 1 ep   7 | train 0.123 | val loss 0.779 bacc 0.802 f1 0.839 | 22s
+fold 1 ep   8 | train 0.030 | val loss 0.564 bacc 0.845 f1 0.819 | 22s
+fold 1 ep   9 | train 0.029 | val loss 1.415 bacc 0.628 f1 0.621 | 22s
+fold 1 ep  10 | train 0.167 | val loss 0.490 bacc 0.820 f1 0.857 | 22s
+fold 1 ep  11 | train 0.157 | val loss 0.570 bacc 0.813 f1 0.823 | 22s
+fold 1 ep  12 | train 0.054 | val loss 0.481 bacc 0.789 f1 0.810 | 22s
+fold 1 ep  13 | train 0.077 | val loss 0.536 bacc 0.817 f1 0.807 | 22s
+fold 1 ep  14 | train 0.005 | val loss 0.537 bacc 0.840 f1 0.802 | 22s
+fold 1 ep  15 | train 0.002 | val loss 0.447 bacc 0.799 f1 0.800 | 22s
+fold 1 ep  16 | train 0.001 | val loss 0.477 bacc 0.818 f1 0.808 | 22s
+fold 1 ep  17 | train 0.001 | val loss 0.499 bacc 0.847 f1 0.829 | 22s
+fold 1 ep  18 | train 0.000 | val loss 0.477 bacc 0.818 f1 0.808 | 22s
+fold 1 ep  19 | train 0.000 | val loss 0.478 bacc 0.818 f1 0.808 | 22s
+fold 1 done: best epoch 3, val bacc 0.755
+== [56/60] vits16_lunit/transmil/seed0/fold1 done in 7.0 min | elapsed 1.19 h
+fold 2 ep   1 | train 0.901 | val loss 0.714 bacc 0.776 f1 0.748 | 22s *
+fold 2 ep   2 | train 0.422 | val loss 0.741 bacc 0.669 f1 0.656 | 22s
+fold 2 ep   3 | train 0.334 | val loss 0.759 bacc 0.703 f1 0.714 | 22s
+fold 2 ep   4 | train 0.228 | val loss 0.668 bacc 0.762 f1 0.768 | 22s *
+fold 2 ep   5 | train 0.175 | val loss 0.812 bacc 0.806 f1 0.793 | 22s
+fold 2 ep   6 | train 0.060 | val loss 0.955 bacc 0.701 f1 0.699 | 22s
+fold 2 ep   7 | train 0.078 | val loss 0.707 bacc 0.778 f1 0.774 | 22s
+fold 2 ep   8 | train 0.059 | val loss 0.918 bacc 0.842 f1 0.825 | 22s
+fold 2 ep   9 | train 0.086 | val loss 0.994 bacc 0.814 f1 0.818 | 22s
+fold 2 ep  10 | train 0.169 | val loss 1.168 bacc 0.614 f1 0.620 | 22s
+fold 2 ep  11 | train 0.161 | val loss 0.911 bacc 0.835 f1 0.807 | 22s
+fold 2 ep  12 | train 0.024 | val loss 0.925 bacc 0.814 f1 0.817 | 22s
+fold 2 ep  13 | train 0.004 | val loss 0.952 bacc 0.808 f1 0.803 | 22s
+fold 2 ep  14 | train 0.003 | val loss 0.984 bacc 0.823 f1 0.805 | 22s
+fold 2 ep  15 | train 0.001 | val loss 1.006 bacc 0.798 f1 0.790 | 22s
+fold 2 ep  16 | train 0.001 | val loss 1.029 bacc 0.798 f1 0.792 | 22s
+fold 2 ep  17 | train 0.000 | val loss 1.049 bacc 0.793 f1 0.779 | 22s
+fold 2 ep  18 | train 0.000 | val loss 1.066 bacc 0.798 f1 0.792 | 22s
+fold 2 ep  19 | train 0.000 | val loss 1.085 bacc 0.798 f1 0.792 | 22s
+fold 2 done: best epoch 4, val bacc 0.762
+== [57/60] vits16_lunit/transmil/seed0/fold2 done in 7.0 min | elapsed 1.30 h
+fold 3 ep   1 | train 0.909 | val loss 0.825 bacc 0.684 f1 0.668 | 22s *
+fold 3 ep   2 | train 0.507 | val loss 0.919 bacc 0.675 f1 0.712 | 22s
+fold 3 ep   3 | train 0.281 | val loss 0.856 bacc 0.699 f1 0.717 | 22s
+fold 3 ep   4 | train 0.148 | val loss 0.947 bacc 0.709 f1 0.705 | 22s
+fold 3 ep   5 | train 0.124 | val loss 0.814 bacc 0.749 f1 0.749 | 22s *
+fold 3 ep   6 | train 0.081 | val loss 0.985 bacc 0.653 f1 0.690 | 22s
+fold 3 ep   7 | train 0.058 | val loss 1.016 bacc 0.727 f1 0.752 | 22s
+fold 3 ep   8 | train 0.195 | val loss 1.464 bacc 0.765 f1 0.726 | 22s
+fold 3 ep   9 | train 0.088 | val loss 1.083 bacc 0.803 f1 0.808 | 22s
+fold 3 ep  10 | train 0.085 | val loss 1.319 bacc 0.805 f1 0.796 | 22s
+fold 3 ep  11 | train 0.115 | val loss 1.604 bacc 0.679 f1 0.711 | 22s
+fold 3 ep  12 | train 0.057 | val loss 1.702 bacc 0.687 f1 0.695 | 22s
+fold 3 ep  13 | train 0.067 | val loss 1.593 bacc 0.649 f1 0.660 | 22s
+fold 3 ep  14 | train 0.076 | val loss 1.001 bacc 0.767 f1 0.785 | 22s
+fold 3 ep  15 | train 0.018 | val loss 1.143 bacc 0.773 f1 0.798 | 22s
+fold 3 ep  16 | train 0.002 | val loss 1.112 bacc 0.777 f1 0.802 | 22s
+fold 3 ep  17 | train 0.002 | val loss 1.530 bacc 0.662 f1 0.699 | 22s
+fold 3 ep  18 | train 0.002 | val loss 1.152 bacc 0.796 f1 0.814 | 22s
+fold 3 ep  19 | train 0.001 | val loss 1.237 bacc 0.777 f1 0.801 | 22s
+fold 3 done: best epoch 5, val bacc 0.749
+== [58/60] vits16_lunit/transmil/seed0/fold3 done in 7.1 min | elapsed 1.42 h
+fold 4 ep   1 | train 0.872 | val loss 0.584 bacc 0.708 f1 0.731 | 22s *
+fold 4 ep   2 | train 0.471 | val loss 0.930 bacc 0.662 f1 0.638 | 22s
+fold 4 ep   3 | train 0.247 | val loss 0.738 bacc 0.731 f1 0.748 | 22s
+fold 4 ep   4 | train 0.097 | val loss 1.311 bacc 0.713 f1 0.687 | 22s
+fold 4 ep   5 | train 0.124 | val loss 1.048 bacc 0.666 f1 0.695 | 22s
+fold 4 ep   6 | train 0.144 | val loss 1.175 bacc 0.693 f1 0.718 | 22s
+fold 4 ep   7 | train 0.060 | val loss 1.329 bacc 0.683 f1 0.646 | 22s
+fold 4 ep   8 | train 0.135 | val loss 1.095 bacc 0.718 f1 0.692 | 22s
+fold 4 ep   9 | train 0.084 | val loss 1.048 bacc 0.759 f1 0.749 | 22s
+fold 4 ep  10 | train 0.145 | val loss 0.933 bacc 0.729 f1 0.764 | 22s
+fold 4 ep  11 | train 0.055 | val loss 1.138 bacc 0.721 f1 0.713 | 22s
+fold 4 ep  12 | train 0.015 | val loss 1.083 bacc 0.711 f1 0.722 | 22s
+fold 4 ep  13 | train 0.004 | val loss 1.158 bacc 0.713 f1 0.733 | 22s
+fold 4 ep  14 | train 0.001 | val loss 1.068 bacc 0.717 f1 0.734 | 22s
+fold 4 ep  15 | train 0.001 | val loss 1.110 bacc 0.711 f1 0.727 | 22s
+fold 4 ep  16 | train 0.001 | val loss 1.113 bacc 0.711 f1 0.727 | 22s
+fold 4 ep  17 | train 0.000 | val loss 1.125 bacc 0.700 f1 0.715 | 22s
+fold 4 ep  18 | train 0.000 | val loss 1.135 bacc 0.725 f1 0.738 | 22s
+fold 4 ep  19 | train 0.000 | val loss 1.141 bacc 0.730 f1 0.745 | 22s
+fold 4 done: best epoch 1, val bacc 0.708
+== [59/60] vits16_lunit/transmil/seed0/fold4 done in 7.1 min | elapsed 1.54 h
+fold 5 ep   1 | train 0.940 | val loss 0.595 bacc 0.715 f1 0.744 | 22s *
+fold 5 ep   2 | train 0.507 | val loss 0.976 bacc 0.669 f1 0.675 | 22s
+fold 5 ep   3 | train 0.269 | val loss 0.746 bacc 0.709 f1 0.726 | 22s
+fold 5 ep   4 | train 0.116 | val loss 0.811 bacc 0.767 f1 0.798 | 22s
+fold 5 ep   5 | train 0.093 | val loss 0.725 bacc 0.815 f1 0.818 | 22s
+fold 5 ep   6 | train 0.185 | val loss 0.872 bacc 0.691 f1 0.736 | 22s
+fold 5 ep   7 | train 0.074 | val loss 1.214 bacc 0.727 f1 0.742 | 22s
+fold 5 ep   8 | train 0.144 | val loss 0.897 bacc 0.737 f1 0.759 | 22s
+fold 5 ep   9 | train 0.115 | val loss 0.876 bacc 0.815 f1 0.823 | 22s
+fold 5 ep  10 | train 0.059 | val loss 1.044 bacc 0.807 f1 0.822 | 22s
+fold 5 ep  11 | train 0.098 | val loss 1.105 bacc 0.666 f1 0.713 | 22s
+fold 5 ep  12 | train 0.108 | val loss 0.983 bacc 0.757 f1 0.787 | 22s
+fold 5 ep  13 | train 0.015 | val loss 0.923 bacc 0.766 f1 0.773 | 22s
+fold 5 ep  14 | train 0.004 | val loss 1.063 bacc 0.736 f1 0.761 | 22s
+fold 5 ep  15 | train 0.002 | val loss 1.043 bacc 0.730 f1 0.755 | 22s
+fold 5 ep  16 | train 0.001 | val loss 1.072 bacc 0.718 f1 0.745 | 22s
+fold 5 ep  17 | train 0.001 | val loss 1.088 bacc 0.718 f1 0.745 | 22s
+fold 5 ep  18 | train 0.001 | val loss 1.128 bacc 0.718 f1 0.745 | 22s
+fold 5 ep  19 | train 0.000 | val loss 1.150 bacc 0.718 f1 0.745 | 22s
+fold 5 done: best epoch 1, val bacc 0.715
+== [60/60] vits16_lunit/transmil/seed0/fold5 done in 7.1 min | elapsed 1.66 h
+GRID FINISHED: 60/60 runs complete

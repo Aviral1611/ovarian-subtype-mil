@@ -1,0 +1,9 @@
+encoder,level,n,silhouette,linear_probe_bacc
+vits16_lunit,slide,538,0.045338366,0.7555709240917083
+vits16_lunit,patch,1000,0.015891615,
+ctranspath,slide,538,0.036806546,0.7776602828138145
+ctranspath,patch,1000,0.01677157,
+phikon_v2,slide,538,0.020835724,0.7753485869537317
+phikon_v2,patch,1000,0.010520914,
+plip,slide,538,0.025119754,0.766661090327946
+plip,patch,1000,-0.00333214,
